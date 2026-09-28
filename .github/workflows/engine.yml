@@ -1,0 +1,101 @@
+name: MiND-Shot Engine
+
+# ── SCHEDULE ──────────────────────────────────────────────────────────────────
+# Fires every minute. Note: GitHub Actions throttles scheduled workflows under
+# load — a 1-minute cron commonly runs every ~5 min and can stretch further at
+# peak; this is a GitHub limitation, not a config error. Each run does a single
+# fast poll, and the commit step skips when state is unchanged, so minutes with
+# no new 4h candle and no open-trade change cost almost nothing.
+# ──────────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    - cron: '* * * * *'          # every minute (subject to GitHub throttling)
+  workflow_dispatch:
+    inputs:
+      test_alert:
+        description: 'Send one delivery-test alert (verify webhook -> Telegram), then exit'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# One FIXED group serialises polls: two staggered cron runs can no longer trade
+# on the same stale state simultaneously (double alerts, lost closes on the
+# push race). Extra queued runs collapse into one pending run — which is ideal,
+# since every poll is identical. cancel-in-progress stays false so a running
+# poll always finishes committing its state.
+concurrency:
+  group: mind-shot-engine
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    # One poll + checkout + commit/push (with retry headroom). 5 min is ample.
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo (with state)
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run MiND-Shot Engine
+        env:
+          # ── Delivery — set ONE in repo Settings → Secrets → Actions ──
+          WEBHOOK_URL:       ${{ secrets.WEBHOOK_URL }}         # Make.com / n8n / Pipedream
+          TG_TOKEN:          ${{ secrets.TG_TOKEN }}            # OR Telegram bot token
+          TG_CHAT_ID:        ${{ secrets.TG_CHAT_ID }}          # OR Telegram chat id
+          LEVERAGE:          ${{ vars.LEVERAGE || '10' }}       # Repo variable (not secret)
+          ACCOUNT_USD:       ${{ vars.ACCOUNT_USD || '100' }}   # wallet size for sizing display
+          ALLOC_PCT:         ${{ vars.ALLOC_PCT || '15' }}      # % of wallet per trade
+          # Cron fires every minute, so a single poll per run is enough.
+          POLLS_PER_RUN:     '1'
+          POLL_INTERVAL_SEC: '60'
+          # Electron JSON output — disabled on GitHub Actions (stdout not read there)
+          OUTPUT_JSON:       '0'
+          # Manual "Run workflow" with test_alert=true sends one delivery-test alert.
+          TEST_ALERT:        ${{ inputs.test_alert && '1' || '0' }}
+        run: python mind_shot_engine.py
+
+      - name: Commit updated state (race-safe)
+        run: |
+          set -e
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/state.json || true
+          if git diff --cached --quiet; then
+            echo "✓ No state changes to commit."
+            exit 0
+          fi
+          git commit -m "state: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Retry push with pull-rebase fallback.
+          # Two concurrent runs (Cron A + Cron B) may race to push — this handles it.
+          # `-X theirs` keeps OUR freshly-generated state.json on rebase conflict.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main 2>&1; then
+              echo "✓ Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "✗ Push attempt $attempt failed — rebasing…"
+            git pull --rebase -X theirs origin main || {
+              git rebase --abort || true
+              if [ "$attempt" = "5" ]; then
+                git fetch origin main
+                git reset --soft origin/main
+                git add state/state.json
+                git commit -m "state: $(date -u +'%Y-%m-%d %H:%M UTC') (force)"
+                git push origin HEAD:main && exit 0
+              fi
+            }
+            sleep $((attempt * 2))
+          done
+          echo "❌ Could not push after 5 attempts — state will retry next run"
+          exit 0   # Never fail the workflow over a push race
