@@ -52,6 +52,33 @@ PRICE_SAMPLE_BARS = 48    # closes shipped to the dashboard sparkline
 
 Pair = Tuple[str, str]    # (asset, timeframe)
 
+# Open trades older than this are treated as stale seed-state leftovers (e.g. a
+# fake open position committed from a different machine / older backtest) and are
+# dropped on load so the engine never manages or pushes an entry price that no
+# longer reflects the live market. A healthy mean-reversion trade is walked to
+# close within a few bars, so its last_bar stays current; only an untouched seed
+# trade drifts this old.
+STALE_TRADE_MAX_AGE_DAYS = config.STALE_TRADE_MAX_AGE_DAYS
+
+
+def _drop_stale_open_trades(state: Dict[str, Any]) -> int:
+    """Clear open trades whose ``last_bar`` is implausibly old. Returns the count."""
+    now = datetime.now(tz=timezone.utc).timestamp()
+    max_age = STALE_TRADE_MAX_AGE_DAYS * 86400
+    dropped = 0
+    for sid, st in state.items():
+        if sid == GLOBAL_KEY or not isinstance(st, dict):
+            continue
+        at = st.get("active_trade")
+        if at and isinstance(at, dict) and at.get("last_bar"):
+            if now - at["last_bar"] > max_age:
+                log.warning("[%s] 丢弃陈旧开仓（last_bar 距今 > %d 天），避免推送过期价位",
+                            sid, STALE_TRADE_MAX_AGE_DAYS)
+                st["active_trade"] = None
+                dropped += 1
+    return dropped
+
+
 
 # ── risk gates ───────────────────────────────────────────────────────────────
 def _risk_block(
@@ -262,6 +289,7 @@ def _fetch_pairs(pairs: List[Pair]) -> Tuple[Dict[Pair, List], Dict[Pair, Dict]]
 def run_one_poll() -> Dict[str, Any]:
     started = time.monotonic()
     state = load_state()
+    _drop_stale_open_trades(state)
     gs = ensure_global(state)
     trained_model = load_trained_model()
 
