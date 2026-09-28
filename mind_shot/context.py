@@ -17,7 +17,7 @@ _UA = {"User-Agent": "Mozilla/5.0"}
 
 OKX_REST = "https://www.okx.com/api/v5"
 # 欧易 instId（现货/永续通用）
-_PAIR = {"btc": "BTC-USDT", "eth": "ETH-USDT"}
+_PAIR = {"btc": "BTC-USDT-SWAP", "eth": "ETH-USDT-SWAP"}
 
 
 def _get(url: str, timeout: float = 10.0) -> Optional[Any]:
@@ -54,7 +54,7 @@ def fetch_market_context() -> Dict[str, Any]:
         ctx["btc_dominance"] = ctx["eth_dominance"] = ctx["mcap_change_24h"] = None
 
     tickers: Dict[str, Any] = {}
-    for sym, inst in (("BTC", "BTC-USDT"), ("ETH", "ETH-USDT")):
+    for sym, inst in (("BTC", "BTC-USDT-SWAP"), ("ETH", "ETH-USDT-SWAP")):
         t = _get(f"{OKX_REST}/market/ticker?instId={inst}")
         if isinstance(t, dict) and isinstance(t.get("data"), list) and t["data"]:
             v = t["data"][0]
