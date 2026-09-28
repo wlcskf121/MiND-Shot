@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-一次性抓取 BTC-USDT-SWAP / ETH-USDT-SWAP 在欧易（OKX）上的深层历史 K 线，写入
+一次性抓取 BTC-USDT-SWAP / ETH-USDT-SWAP 永续合约在欧易（OKX）上的深层历史 K 线，写入
 ``data/<instId>_<tf>.csv`` —— 与回测样本（tests/fixtures）使用相同的列结构。
 
 在仓库根目录运行（需联网，能访问 www.okx.com）：
