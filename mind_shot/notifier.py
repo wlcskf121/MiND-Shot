@@ -212,22 +212,46 @@ def event_alert(event: Dict[str, Any], trade: Trade, strategy: Strategy) -> Tupl
     return payload, text
 
 
-def _sample_live_price(asset: str) -> "float | None":
-    """尝试取实时收盘价用于示例告警；任何失败都返回 None（回退演示价）。
+def _ticker_price(asset: str) -> "float | None":
+    """直接打 OKX ticker 接口取最新成交价（SWAP 合约 instId）。失败返回 None。"""
+    inst = market.PAIRS.get(asset.upper())
+    if not inst:
+        return None
+    try:
+        req = urllib.request.Request(
+            f"https://www.okx.com/api/v5/market/ticker?instId={inst}",
+            headers={"User-Agent": "MiND-Shot/2.0"},
+        )
+        with urllib.request.urlopen(req, timeout=15.0) as r:
+            data = json.loads(r.read().decode())
+        rows = data.get("data") or []
+        if rows:
+            return float(rows[0].get("last", 0) or 0)
+    except Exception as err:  # noqa: BLE001 - 示例取数失败不应中断推送
+        log.warning("示例告警取 ticker 实时价失败: %s", err)
+    return None
 
-    只用于 ``test_alert``——失败绝不应中断推送，所以吞掉所有异常。
-    注意：``market.fetch_klines`` 内部要求有效 K 线 ≥ 10 根，故此处 limit 必须
-    大于 10（真实策略用 720，这里取 20 足够且更省流量），否则会触发其下限校验
-    抛错而被本函数当作“取数失败”回退到演示价。
+
+def _sample_live_price(asset: str) -> "float | None":
+    """取实时价用于示例告警；任何失败都返回 None（回退演示价）。永不崩溃。
+
+    优先级（都失败才回退演示价）：
+      1. OKX ticker 最新成交价 —— 实盘已验证在 Actions 上可用，最直观的“实时价”；
+      2. fetch_klines 最近一根已收盘 K 线的收盘价 —— 兜底通道（已修正为 /market/candles）。
     """
+    # 通道 1：ticker 最新价（最可靠）
+    p = _ticker_price(asset)
+    if p and p > 0:
+        return p
+    # 通道 2：已收盘 K 线收盘价（兜底）
     try:
         candles = market.fetch_klines(asset, "4h", limit=20)
         if len(candles) >= 2:
-            return candles[-2][4]      # 最近一根已收盘 K 线的收盘价
+            return float(candles[-2][4])
         if candles:
-            return candles[-1][4]
-    except Exception as err:  # noqa: BLE001 - 示例取数失败不应中断推送
-        log.warning("示例告警取实时价失败，回退演示价: %s", err)
+            return float(candles[-1][4])
+    except Exception as err:  # noqa: BLE001
+        log.warning("示例告警取 K 线实时价失败，回退演示价: %s", err)
     return None
 
 
