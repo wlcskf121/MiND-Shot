@@ -17,7 +17,7 @@ import urllib.error
 import urllib.request
 from typing import Any, Dict, Tuple
 
-from . import config
+from . import config, market
 from .models import Side
 from .strategies import STRATEGY_BY_ID, Strategy
 from .trading import Trade
@@ -212,11 +212,38 @@ def event_alert(event: Dict[str, Any], trade: Trade, strategy: Strategy) -> Tupl
     return payload, text
 
 
+def _sample_live_price(asset: str) -> "float | None":
+    """尝试取实时收盘价用于示例告警；任何失败都返回 None（回退演示价）。
+
+    只用于 ``test_alert``——失败绝不应中断推送，所以吞掉所有异常。
+    """
+    try:
+        candles = market.fetch_klines(asset, "4h", limit=3)
+        if len(candles) >= 2:
+            return candles[-2][4]      # 最近一根已收盘 K 线的收盘价
+        if candles:
+            return candles[-1][4]
+    except Exception as err:  # noqa: BLE001 - 示例取数失败不应中断推送
+        log.warning("示例告警取实时价失败，回退演示价: %s", err)
+    return None
+
+
 def sample_alert() -> Tuple[Dict[str, Any], str]:
     """A realistic, clearly-labelled SAMPLE entry — shows exactly what a real
-    signal looks like and doubles as a delivery test."""
+    signal looks like and doubles as a delivery test.
+
+    入场价优先用实时 OKX 收盘价（让 test_alert 顺带验证“实时价”），
+    取不到时回退到演示价，永不崩溃。
+    """
     strat = STRATEGY_BY_ID["vwap_bracket_eth"]
-    entry, atr = 1800.0, 31.0
+    live = _sample_live_price(strat.asset)
+    if live and live > 0:
+        entry = round(live, 2)
+        atr = round(entry * 0.02, 2)       # 演示用波动幅度：约 2%
+        live_tag = "（实时行情）"
+    else:
+        entry, atr = 1800.0, 31.0
+        live_tag = "（演示价·取实时行情失败）"
     trade = Trade(
         strategy_id=strat.id, asset=strat.asset, tf=strat.timeframe, side="long",
         entry=entry, init_sl=entry - 1.5 * atr, sl=entry - 1.5 * atr, tp=entry + 0.75 * atr,
@@ -226,6 +253,7 @@ def sample_alert() -> Tuple[Dict[str, Any], str]:
     banner = (
         "🧪 <b>示例告警</b> — 以下即真实信号的样式。\n"
         "并非实盘交易。真实告警仅在 4h 收盘且 ADX&lt;25 时触发。\n"
+        f"📡 示例价来源：{live_tag}\n"
         f"{_RULE}\n"
     )
     text = banner + text
