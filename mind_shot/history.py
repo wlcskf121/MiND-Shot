@@ -19,7 +19,7 @@ from .backtest import _load_fixture
 from .models import Candle
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
-_SYMBOL = {"BTC": "BTC-USDT", "ETH": "ETH-USDT"}
+_SYMBOL = {"BTC": "BTC-USDT-SWAP", "ETH": "ETH-USDT-SWAP"}
 
 
 def has_deep_history(asset: str, timeframe: str = "4h") -> bool:
