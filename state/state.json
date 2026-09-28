@@ -717,5 +717,2257 @@
     "paper_mode": false,
     "risk_per_trade_pct": 15.0,
     "sl_cooldowns": {}
+  },
+  "rsi2_bracket_eth": {
+    "active_trade": {
+      "asset": "ETH",
+      "duration_sec": 0,
+      "entry": 2642.72,
+      "exit_style": "bracket",
+      "init_sl": 2595.1688172187723,
+      "last_bar": 1790582400,
+      "live_pnl_leveraged": 0.0,
+      "live_pnl_pct": 0.0,
+      "ml_snap": {
+        "_pred": {
+          "experts": {
+            "base": 0.6615,
+            "buckets": 0.6615,
+            "ftrl": 0.6615,
+            "pool": 0.6615
+          },
+          "p": 0.6615
+        },
+        "p_tr": null,
+        "rsi_b": 1,
+        "ses_b": 0,
+        "sid": "rsi2_bracket_eth",
+        "side": "long",
+        "strat_b": 1,
+        "t": 1790568000,
+        "v": 2,
+        "vol_b": 1,
+        "x": {
+          "adx": -0.3142090862676471,
+          "atrp": -0.40022422880936626,
+          "dc": 1.0,
+          "ds": 0.0,
+          "hc": 0.5000000000000001,
+          "hs": 0.8660254037844386,
+          "rsi": -0.23123815325329133,
+          "side": 1.0,
+          "side_rsi": -0.23123815325329133,
+          "side_t20": 0.4417474618282376,
+          "side_t5": -0.7237914622804942,
+          "stretch": 0.7984516562674756,
+          "t20d": 0.4417474618282376,
+          "t5d": -0.7237914622804942,
+          "volr": -0.1989477837239737
+        }
+      },
+      "opened_bar": 1790582400,
+      "side": "long",
+      "sl": 2595.1688172187723,
+      "strategy_id": "rsi2_bracket_eth",
+      "target": null,
+      "tf": "4h",
+      "tp": 2666.4955913906133
+    },
+    "last_signal_bar": 1790568000,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "rsi2_bracket_eth_15m": {
+    "active_trade": null,
+    "last_signal_bar": 1790583300,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "rsi2_bracket_eth_1d": {
+    "active_trade": null,
+    "last_signal_bar": 1790438400,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "rsi2_bracket_eth_1h": {
+    "active_trade": null,
+    "last_signal_bar": 1790578800,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "stoch_bracket_eth": {
+    "active_trade": {
+      "asset": "ETH",
+      "duration_sec": 0,
+      "entry": 2642.72,
+      "exit_style": "bracket",
+      "init_sl": 2579.3184229583635,
+      "last_bar": 1790582400,
+      "live_pnl_leveraged": 0.0,
+      "live_pnl_pct": 0.0,
+      "ml_snap": {
+        "_pred": {
+          "experts": {
+            "base": 0.6795,
+            "buckets": 0.6795,
+            "ftrl": 0.6795,
+            "pool": 0.6795
+          },
+          "p": 0.6795
+        },
+        "p_tr": null,
+        "rsi_b": 1,
+        "ses_b": 0,
+        "sid": "stoch_bracket_eth",
+        "side": "long",
+        "strat_b": 3,
+        "t": 1790568000,
+        "v": 2,
+        "vol_b": 1,
+        "x": {
+          "adx": -0.3142090862676471,
+          "atrp": -0.40022422880936626,
+          "dc": 1.0,
+          "ds": 0.0,
+          "hc": 0.5000000000000001,
+          "hs": 0.8660254037844386,
+          "rsi": -0.23123815325329133,
+          "side": 1.0,
+          "side_rsi": -0.23123815325329133,
+          "side_t20": 0.4417474618282376,
+          "side_t5": -0.7237914622804942,
+          "stretch": 1.013274336283235,
+          "t20d": 0.4417474618282376,
+          "t5d": -0.7237914622804942,
+          "volr": -0.1989477837239737
+        }
+      },
+      "opened_bar": 1790582400,
+      "side": "long",
+      "sl": 2579.3184229583635,
+      "strategy_id": "stoch_bracket_eth",
+      "target": null,
+      "tf": "4h",
+      "tp": 2666.4955913906133
+    },
+    "last_signal_bar": 1790568000,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "stoch_bracket_eth_15m": {
+    "active_trade": null,
+    "last_signal_bar": 1790583300,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "stoch_bracket_eth_1d": {
+    "active_trade": null,
+    "last_signal_bar": 1790438400,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "stoch_bracket_eth_1h": {
+    "active_trade": null,
+    "last_signal_bar": 1790578800,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "vwap_bracket_eth": {
+    "active_trade": {
+      "asset": "ETH",
+      "duration_sec": 0,
+      "entry": 2642.72,
+      "exit_style": "bracket",
+      "init_sl": 2595.1688172187723,
+      "last_bar": 1790582400,
+      "live_pnl_leveraged": 0.0,
+      "live_pnl_pct": 0.0,
+      "ml_snap": {
+        "_pred": {
+          "experts": {
+            "base": 0.692,
+            "buckets": 0.692,
+            "ftrl": 0.692,
+            "pool": 0.692
+          },
+          "p": 0.692
+        },
+        "p_tr": null,
+        "rsi_b": 1,
+        "ses_b": 0,
+        "sid": "vwap_bracket_eth",
+        "side": "long",
+        "strat_b": 0,
+        "t": 1790568000,
+        "v": 2,
+        "vol_b": 1,
+        "x": {
+          "adx": -0.3142090862676471,
+          "atrp": -0.40022422880936626,
+          "dc": 1.0,
+          "ds": 0.0,
+          "hc": 0.5000000000000001,
+          "hs": 0.8660254037844386,
+          "rsi": -0.23123815325329133,
+          "side": 1.0,
+          "side_rsi": -0.23123815325329133,
+          "side_t20": 0.4417474618282376,
+          "side_t5": -0.7237914622804942,
+          "stretch": 0.6160967967585464,
+          "t20d": 0.4417474618282376,
+          "t5d": -0.7237914622804942,
+          "volr": -0.1989477837239737
+        }
+      },
+      "opened_bar": 1790582400,
+      "side": "long",
+      "sl": 2595.1688172187723,
+      "strategy_id": "vwap_bracket_eth",
+      "target": null,
+      "tf": "4h",
+      "tp": 2666.4955913906133
+    },
+    "last_signal_bar": 1790568000,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "vwap_bracket_eth_15m": {
+    "active_trade": null,
+    "last_signal_bar": 1790583300,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "vwap_bracket_eth_1d": {
+    "active_trade": null,
+    "last_signal_bar": 1790438400,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "vwap_bracket_eth_1h": {
+    "active_trade": null,
+    "last_signal_bar": 1790578800,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "vwap_revert_eth": {
+    "active_trade": {
+      "asset": "ETH",
+      "duration_sec": 0,
+      "entry": 2642.72,
+      "exit_style": "revert",
+      "init_sl": 2579.3184229583635,
+      "last_bar": 1790582400,
+      "live_pnl_leveraged": 0.0,
+      "live_pnl_pct": 0.0,
+      "ml_snap": {
+        "_pred": {
+          "experts": {
+            "base": 0.65,
+            "buckets": 0.65,
+            "ftrl": 0.65,
+            "pool": 0.65
+          },
+          "p": 0.65
+        },
+        "p_tr": null,
+        "rsi_b": 1,
+        "ses_b": 0,
+        "sid": "vwap_revert_eth",
+        "side": "long",
+        "strat_b": 2,
+        "t": 1790568000,
+        "v": 2,
+        "vol_b": 1,
+        "x": {
+          "adx": -0.3142090862676471,
+          "atrp": -0.40022422880936626,
+          "dc": 1.0,
+          "ds": 0.0,
+          "hc": 0.5000000000000001,
+          "hs": 0.8660254037844386,
+          "rsi": -0.23123815325329133,
+          "side": 1.0,
+          "side_rsi": -0.23123815325329133,
+          "side_t20": 0.4417474618282376,
+          "side_t5": -0.7237914622804942,
+          "stretch": 0.6160967967585464,
+          "t20d": 0.4417474618282376,
+          "t5d": -0.7237914622804942,
+          "volr": -0.1989477837239737
+        }
+      },
+      "opened_bar": 1790582400,
+      "side": "long",
+      "sl": 2579.3184229583635,
+      "strategy_id": "vwap_revert_eth",
+      "target": 2688.153059065516,
+      "tf": "4h",
+      "tp": null
+    },
+    "last_signal_bar": 1790568000,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "vwap_revert_eth_15m": {
+    "active_trade": null,
+    "last_signal_bar": 1790583300,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "vwap_revert_eth_1d": {
+    "active_trade": null,
+    "last_signal_bar": 1790438400,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "vwap_revert_eth_1h": {
+    "active_trade": null,
+    "last_signal_bar": 1790578800,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "zscore_revert_btc": {
+    "active_trade": null,
+    "last_signal_bar": 1790568000,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "zscore_revert_btc_15m": {
+    "active_trade": null,
+    "last_signal_bar": 1790583300,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "zscore_revert_btc_1d": {
+    "active_trade": null,
+    "last_signal_bar": 1790438400,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
+  },
+  "zscore_revert_btc_1h": {
+    "active_trade": null,
+    "last_signal_bar": 1790578800,
+    "ml": {
+      "cal": {
+        "a": 1.0,
+        "b": 0.0,
+        "n": 0
+      },
+      "dims": {
+        "rsi": {},
+        "ses": {},
+        "strat": {},
+        "vol": {}
+      },
+      "dl": 0.0,
+      "drift": {
+        "cum": 0.0,
+        "events": 0,
+        "last_at": null,
+        "mean": 0.0,
+        "min_cum": 0.0,
+        "n": 0
+      },
+      "dw": 0.0,
+      "ftrl": {
+        "n": {},
+        "z": {}
+      },
+      "gross_loss": 0.0,
+      "gross_profit": 0.0,
+      "hedge": {
+        "base": 0.45,
+        "buckets": 0.15,
+        "ftrl": 0.15,
+        "pool": 0.2,
+        "trained": 0.05
+      },
+      "metrics": {
+        "acc": 0.0,
+        "base_logloss": 0.0,
+        "bins": [
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0.0,
+            0.0
+          ]
+        ],
+        "brier": 0.0,
+        "logloss": 0.0,
+        "n": 0
+      },
+      "total_trades": 0,
+      "version": 2,
+      "wins": 0
+    }
   }
 }
