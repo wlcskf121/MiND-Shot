@@ -89,13 +89,19 @@ def _leg(entry: float, level: float) -> Tuple[float, float, float]:
 
 
 def entry_alert(trade: Trade, strategy: Strategy, ml_conf: float, adx: float | None = None,
-                breakeven: float | None = None) -> Tuple[Dict[str, Any], str]:
-    """Build the (payload, html_text) pair for a new entry."""
+                breakeven: float | None = None, is_test: bool = False) -> Tuple[Dict[str, Any], str]:
+    """Build the (payload, html_text) pair for a new entry.
+
+    ``is_test`` 为 True 时（示例/投递测试告警）顶部打印“测试告警·非真实交易”，
+    与真实触发的“实盘信号”在 Telegram 里一眼可辨，杜绝混淆。
+    """
     lev = config.LEVERAGE
     margin, notional = _sizing()
     is_long = trade.side == Side.LONG.value
     dot = "🟢" if is_long else "🔴"
     side_word = "做多" if is_long else "做空"
+    # 类型徽标：真实信号 vs 测试告警 —— 这是区分两者的唯一可靠标签
+    type_badge = "🧪 <b>测试告警</b> · 非真实交易" if is_test else "🔴 <b>实盘信号</b>"
 
     sl_move, sl_usd, sl_acct = _leg(trade.entry, trade.sl)
     wr = f"🏆 <i>回测胜率 {strategy.backtest_win_rate:.0f}%</i>" if strategy.backtest_win_rate else ""
@@ -109,6 +115,7 @@ def entry_alert(trade: Trade, strategy: Strategy, ml_conf: float, adx: float | N
                   f"   ·   {'占优 ✓' if edge_ok else '优势薄弱 ⚠ — 建议放弃'}")
 
     lines = [
+        type_badge,
         f"{dot} <b>{side_word}</b>   ·   <code>{_esc(trade.asset)}/USD</code>   ·   <b>{_esc(trade.tf)}</b>   ·   ⚡<code>{lev}×</code>",
         _RULE,
         f"🧩 <b>{_esc(strategy.name)}</b>   {wr}".rstrip(),
@@ -146,6 +153,7 @@ def entry_alert(trade: Trade, strategy: Strategy, ml_conf: float, adx: float | N
 
     payload = {
         "type": "entry",
+        "is_test": is_test,
         "side": trade.side.upper(),
         "asset": trade.asset,
         "tf": trade.tf,
@@ -276,15 +284,14 @@ def sample_alert() -> Tuple[Dict[str, Any], str]:
         entry=entry, init_sl=entry - 1.5 * atr, sl=entry - 1.5 * atr, tp=entry + 0.75 * atr,
         exit_style="bracket", opened_bar=0, last_bar=0, ml_snap={},
     )
-    _, text = entry_alert(trade, strat, 0.58, adx=18.0)
+    _, text = entry_alert(trade, strat, 0.58, adx=18.0, is_test=True)
     banner = (
-        "🧪 <b>示例告警</b> — 以下即真实信号的样式。\n"
-        "并非实盘交易。真实告警仅在 4h 收盘且 ADX&lt;25 时触发。\n"
         f"📡 示例价来源：{live_tag}\n"
+        "↓ 以下为信号样式样本（顶部已标“测试告警·非真实交易”）↓\n"
         f"{_RULE}\n"
     )
     text = banner + text
-    return {"type": "test", "text": text}, text
+    return {"type": "test", "is_test": True, "text": text}, text
 
 
 __all__ = ["deliver", "fmt", "entry_alert", "event_alert", "sample_alert"]
