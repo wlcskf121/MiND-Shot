@@ -3,7 +3,7 @@
 
 选择 OKX 作为实盘数据源：BTC/ETH 的 USDT 永续/现货 K 线均可免费、无需密钥获取，
 且 GitHub Actions 等公共 runner 可稳定访问。五套策略均为基于价格的指标策略、与交易所无关，
-因此 OKX 的 BTC-USDT / ETH-USDT K 线能够驱动与回测完全一致的信号。
+因此 OKX 的 BTC-USDT-SWAP / ETH-USDT-SWAP K 线能够驱动与回测完全一致的信号。
 
 所有网络请求走 :func:`_get_json`，带指数退避重试，仅在穷尽重试后才抛错。
 OKX 返回的 K 线按时间倒序（最新在前），此处统一排序为升序（最旧→最新），
@@ -24,7 +24,7 @@ from .models import Candle
 log = logging.getLogger("mind_shot.market")
 
 OKX_REST = "https://www.okx.com/api/v5/market/candlesticks"
-PAIRS = {"BTC": "BTC-USDT", "ETH": "ETH-USDT"}
+PAIRS = {"BTC": "BTC-USDT-SWAP", "ETH": "ETH-USDT-SWAP"}
 
 # 内部周期令牌 -> OKX bar 字符串（注意 OKX 用大写 H / D）
 OKX_BAR: Dict[str, str] = {
