@@ -48,11 +48,25 @@ POLL_INTERVAL_SEC = _env_int("POLL_INTERVAL_SEC", 60)
 OUTPUT_JSON = _env_bool("OUTPUT_JSON", False)       # Electron reads stdout JSON
 TEST_ALERT = _env_bool("TEST_ALERT", False)         # send one delivery-test alert, then exit
 
+# ── Stale-state guard ─────────────────────────────────────────────────────────
+# Open trades whose last_bar is older than this many days are dropped on load so
+# a stale committed seed-state (e.g. a fake open position from an older backtest
+# or another machine) never gets managed or pushed with an outdated entry price.
+STALE_TRADE_MAX_AGE_DAYS = _env_int("STALE_TRADE_MAX_AGE_DAYS", 3)
+
 # ── ML gating (the Bayesian second opinion may veto a strategy signal) ──────
 ML_MIN_TRADES = _env_int("ML_MIN_TRADES", 12)
 ML_MIN_CONF = _env_float("ML_MIN_CONF", 0.40)
 ML_PENALTY_SL = _env_int("ML_PENALTY_SL", 2)
 ML_GATING_ENABLED = _env_bool("ML_GATING_ENABLED", True)
+
+# ── Multi-timeframe alert dedup (anti-spam for the 15m/1h/4h/1d variants) ──
+# When ON, each (asset, base_strategy) pushes at most ONE entry alert per poll
+# (first signal wins — 4h is evaluated first, so it takes priority), and an
+# asset is kept quiet for ALERT_COOLDOWN_SEC after any entry alert. Set
+# MULTI_TF_DEDUP_ENABLED=0 to revert to "every timeframe's signal pushes".
+MULTI_TF_DEDUP_ENABLED = _env_bool("MULTI_TF_DEDUP_ENABLED", True)
+ALERT_COOLDOWN_SEC = _env_int("ALERT_COOLDOWN_SEC", 1800)   # 30 min, per asset
 
 # ── Paths ───────────────────────────────────────────────────────────────────
 PACKAGE_DIR = Path(__file__).resolve().parent
