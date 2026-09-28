@@ -181,7 +181,7 @@ def simulate(
 # 不依赖网络与地域，可精确复现文档化胜率。
 PLAYBOOK_TEST_START_S = 1_765_756_800   # 2025-12-15 UTC (6-month test window opens)
 FIXTURE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "tests", "fixtures")
-_FIXTURE_SYMBOL = {"BTC": "BTC-USDT", "ETH": "ETH-USDT"}
+_FIXTURE_SYMBOL = {"BTC": "BTC-USDT-SWAP", "ETH": "ETH-USDT-SWAP"}
 
 
 def _load_fixture(asset: str, timeframe: str = "4h") -> List[Candle] | None:
