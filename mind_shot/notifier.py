@@ -216,9 +216,12 @@ def _sample_live_price(asset: str) -> "float | None":
     """尝试取实时收盘价用于示例告警；任何失败都返回 None（回退演示价）。
 
     只用于 ``test_alert``——失败绝不应中断推送，所以吞掉所有异常。
+    注意：``market.fetch_klines`` 内部要求有效 K 线 ≥ 10 根，故此处 limit 必须
+    大于 10（真实策略用 720，这里取 20 足够且更省流量），否则会触发其下限校验
+    抛错而被本函数当作“取数失败”回退到演示价。
     """
     try:
-        candles = market.fetch_klines(asset, "4h", limit=3)
+        candles = market.fetch_klines(asset, "4h", limit=20)
         if len(candles) >= 2:
             return candles[-2][4]      # 最近一根已收盘 K 线的收盘价
         if candles:
