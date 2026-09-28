@@ -65,8 +65,8 @@ def log(msg: str) -> None:
 
 # ── data ─────────────────────────────────────────────────────────────────────
 def fetch_okx(inst_id: str, bar: str = "4H", limit: int = 100) -> List[Tuple]:
-    """Most recent bars from OKX's public candlesticks endpoint (best effort)."""
-    url = f"https://www.okx.com/api/v5/market/candlesticks?instId={inst_id}&bar={bar}&limit={limit}"
+    """Most recent bars from OKX's public candles endpoint (best effort)."""
+    url = f"https://www.okx.com/api/v5/market/candles?instId={inst_id}&bar={bar}&limit={limit}"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
         d = json.loads(r.read().decode())
