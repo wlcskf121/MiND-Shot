@@ -3,7 +3,7 @@
 
 选择 OKX 作为实盘数据源：BTC/ETH 的 USDT 永续/现货 K 线均可免费、无需密钥获取，
 且 GitHub Actions 等公共 runner 可稳定访问。五套策略均为基于价格的指标策略、与交易所无关，
-因此 OKX 的 BTC-USDT-SWAP / ETH-USDT-SWAP K 线能够驱动与回测完全一致的信号。
+因此 OKX 的 BTC-USDT-SWAP / ETH-USDT-SWAP 永续合约 K 线能够驱动与回测完全一致的信号。
 
 所有网络请求走 :func:`_get_json`，带指数退避重试，仅在穷尽重试后才抛错。
 OKX 返回的 K 线按时间倒序（最新在前），此处统一排序为升序（最旧→最新），
@@ -23,7 +23,7 @@ from .models import Candle
 
 log = logging.getLogger("mind_shot.market")
 
-OKX_REST = "https://www.okx.com/api/v5/market/candlesticks"
+OKX_REST = "https://www.okx.com/api/v5/market/candles"
 PAIRS = {"BTC": "BTC-USDT-SWAP", "ETH": "ETH-USDT-SWAP"}
 
 # 内部周期令牌 -> OKX bar 字符串（注意 OKX 用大写 H / D）
@@ -75,17 +75,25 @@ def fetch_klines(asset: str, interval: str, limit: int = 720) -> List[Candle]:
 
     # OKX 返回倒序（最新在前）：[ts_ms, open, high, low, close, vol, volCcy, volCcyQuote, confirm]
     candles: List[Candle] = []
-    last_t = 0
     for r in rows:
         try:
             c = (int(r[0]) // 1000, float(r[1]), float(r[2]), float(r[3]), float(r[4]), float(r[5]))
         except (TypeError, ValueError, IndexError):
             continue
-        if c[0] <= last_t or c[4] <= 0 or not all(math.isfinite(v) for v in c[1:]):
+        if c[0] <= 0 or c[4] <= 0 or not all(math.isfinite(v) for v in c[1:]):
             continue
         candles.append(c)
+    candles.sort(key=lambda x: x[0])  # 统一为升序（最旧→最新）
+    # 去重：OKX 偶尔在首尾重复返回“形成中”K 线，按时间严格递增裁剪。
+    # 注意必须在排序后（升序）再做此裁剪，否则倒序数据会让除最新一根外全部被丢弃。
+    clean: List[Candle] = []
+    last_t = 0
+    for c in candles:
+        if c[0] <= last_t:
+            continue
+        clean.append(c)
         last_t = c[0]
-    candles.sort(key=lambda x: x[0])  # 统一为升序
+    candles = clean
     if len(candles) < 10:
         raise RuntimeError(f"OKX 为 {asset} 返回的有效 K 线过少 ({len(candles)})")
     return candles
