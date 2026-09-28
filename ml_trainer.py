@@ -56,7 +56,7 @@ N_FOLDS = 5
 SEED = 42
 HISTORY_CAP = 24
 
-OKX_PAIR = {"BTC": "BTC-USDT", "ETH": "ETH-USDT"}
+OKX_PAIR = {"BTC": "BTC-USDT-SWAP", "ETH": "ETH-USDT-SWAP"}
 
 
 def log(msg: str) -> None:
