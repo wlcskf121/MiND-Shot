@@ -1169,13 +1169,13 @@
   "rsi2_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 0,
+      "duration_sec": 924,
       "entry": 2676.0,
       "exit_style": "bracket",
       "init_sl": 2663.441034488793,
       "last_bar": 1790643600,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": -2.75,
+      "live_pnl_pct": -0.275,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -1832,8 +1832,61 @@
     }
   },
   "stoch_bracket_eth_15m": {
-    "active_trade": null,
-    "last_signal_bar": 1790642700,
+    "active_trade": {
+      "asset": "ETH",
+      "duration_sec": 0,
+      "entry": 2669.1,
+      "exit_style": "bracket",
+      "init_sl": 2651.5822331751388,
+      "last_bar": 1790644500,
+      "live_pnl_leveraged": 0.0,
+      "live_pnl_pct": 0.0,
+      "ml_snap": {
+        "_pred": {
+          "experts": {
+            "base": 0.759171,
+            "buckets": 0.80566,
+            "ftrl": 0.799588,
+            "pool": 0.87023
+          },
+          "p": 0.809656
+        },
+        "p_tr": null,
+        "rsi_b": 1,
+        "ses_b": 0,
+        "sid": "stoch_bracket_eth_15m",
+        "side": "long",
+        "strat_b": 13,
+        "t": 1790643600,
+        "v": 2,
+        "vol_b": 1,
+        "x": {
+          "adx": -0.4510418673911012,
+          "atrp": -0.8359206584161223,
+          "dc": 0.6234898018587336,
+          "ds": 0.7818314824680298,
+          "hc": 0.9659258262890683,
+          "hs": 0.25881904510252074,
+          "rsi": -0.20249262845382204,
+          "side": 1.0,
+          "side_rsi": -0.20249262845382204,
+          "side_t20": -0.061888094151067996,
+          "side_t5": -0.23123185400248936,
+          "stretch": 0.9680589680589936,
+          "t20d": -0.061888094151067996,
+          "t5d": -0.23123185400248936,
+          "volr": -0.07062858446219089
+        }
+      },
+      "opened_bar": 1790644500,
+      "side": "long",
+      "sl": 2651.5822331751388,
+      "strategy_id": "stoch_bracket_eth_15m",
+      "target": null,
+      "tf": "15m",
+      "tp": 2675.669162559323
+    },
+    "last_signal_bar": 1790643600,
     "ml": {
       "cal": {
         "a": 1.01936605516971,
@@ -2451,7 +2504,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790642700,
+    "last_signal_bar": 1790643600,
     "ml": {
       "cal": {
         "a": 1.0039429369738344,
@@ -2979,7 +3032,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790642700,
+    "last_signal_bar": 1790643600,
     "ml": {
       "cal": {
         "a": 1.0,
@@ -3286,13 +3339,13 @@
   "zscore_revert_btc": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 46841,
+      "duration_sec": 47724,
       "entry": 83059.5,
       "exit_style": "revert",
       "init_sl": 80738.0660625068,
       "last_bar": 1790625600,
-      "live_pnl_leveraged": 1.01,
-      "live_pnl_pct": 0.101,
+      "live_pnl_leveraged": -0.96,
+      "live_pnl_pct": -0.096,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -3334,7 +3387,7 @@
       "side": "long",
       "sl": 80738.0660625068,
       "strategy_id": "zscore_revert_btc",
-      "target": 83937.77999999998,
+      "target": 83929.58999999998,
       "tf": "4h",
       "tp": null
     },
@@ -3441,13 +3494,13 @@
   "zscore_revert_btc_15m": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 0,
+      "duration_sec": 924,
       "entry": 83141.9,
       "exit_style": "revert",
       "init_sl": 82557.53545092873,
       "last_bar": 1790643600,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": -1.95,
+      "live_pnl_pct": -0.195,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -3489,7 +3542,7 @@
       "side": "long",
       "sl": 82557.53545092873,
       "strategy_id": "zscore_revert_btc_15m",
-      "target": 83425.59000000001,
+      "target": 83373.89000000003,
       "tf": "15m",
       "tp": null
     },
