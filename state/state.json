@@ -1424,7 +1424,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790756100,
+    "last_signal_bar": 1790757000,
     "ml": {
       "cal": {
         "a": 0.9962643854406822,
@@ -1725,13 +1725,13 @@
   "rsi2_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 27033,
+      "duration_sec": 27925,
       "entry": 2671.67,
       "exit_style": "bracket",
       "init_sl": 2644.7096256044597,
       "last_bar": 1790751600,
-      "live_pnl_leveraged": -2.04,
-      "live_pnl_pct": -0.204,
+      "live_pnl_leveraged": -1.28,
+      "live_pnl_pct": -0.128,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -2119,7 +2119,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790756100,
+    "last_signal_bar": 1790757000,
     "ml": {
       "cal": {
         "a": 0.9757040889811868,
@@ -2414,13 +2414,13 @@
   "stoch_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 30633,
+      "duration_sec": 31525,
       "entry": 2676.8,
       "exit_style": "bracket",
       "init_sl": 2639.964590611958,
       "last_bar": 1790751600,
-      "live_pnl_leveraged": -3.95,
-      "live_pnl_pct": -0.395,
+      "live_pnl_leveraged": -3.2,
+      "live_pnl_pct": -0.32,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -2796,7 +2796,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790756100,
+    "last_signal_bar": 1790757000,
     "ml": {
       "cal": {
         "a": 0.9990418205612838,
@@ -3342,7 +3342,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790756100,
+    "last_signal_bar": 1790757000,
     "ml": {
       "cal": {
         "a": 0.993174974610632,
@@ -3882,7 +3882,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790756100,
+    "last_signal_bar": 1790757000,
     "ml": {
       "cal": {
         "a": 1.0024981053010338,
