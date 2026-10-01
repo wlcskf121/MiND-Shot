@@ -1989,7 +1989,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790874000,
+    "last_signal_bar": 1790874900,
     "ml": {
       "cal": {
         "a": 1.016913408413984,
@@ -2296,13 +2296,13 @@
   "rsi2_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 1282,
+      "duration_sec": 1835,
       "entry": 2678.9,
       "exit_style": "bracket",
       "init_sl": 2649.9038828720486,
       "last_bar": 1790874000,
-      "live_pnl_leveraged": 6.58,
-      "live_pnl_pct": 0.658,
+      "live_pnl_leveraged": 11.05,
+      "live_pnl_pct": 1.105,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -2702,7 +2702,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790874000,
+    "last_signal_bar": 1790874900,
     "ml": {
       "cal": {
         "a": 0.9840469941752503,
@@ -3355,8 +3355,61 @@
     }
   },
   "vwap_bracket_eth_15m": {
-    "active_trade": null,
-    "last_signal_bar": 1790874000,
+    "active_trade": {
+      "asset": "ETH",
+      "duration_sec": 0,
+      "entry": 2705.11,
+      "exit_style": "bracket",
+      "init_sl": 2722.7502721339747,
+      "last_bar": 1790875800,
+      "live_pnl_leveraged": 0.0,
+      "live_pnl_pct": 0.0,
+      "ml_snap": {
+        "_pred": {
+          "experts": {
+            "base": 0.613961,
+            "buckets": 0.628967,
+            "ftrl": 0.642062,
+            "pool": 0.790307
+          },
+          "p": 0.661292
+        },
+        "p_tr": null,
+        "rsi_b": 2,
+        "ses_b": 2,
+        "sid": "vwap_bracket_eth_15m",
+        "side": "short",
+        "strat_b": 10,
+        "t": 1790874900,
+        "v": 2,
+        "vol_b": 2,
+        "x": {
+          "adx": -0.42556845846661406,
+          "atrp": -0.7826302549129278,
+          "dc": -0.900968867902419,
+          "ds": 0.43388373911755823,
+          "hc": -0.25881904510252063,
+          "hs": -0.9659258262890683,
+          "rsi": 0.20876032318082083,
+          "side": -1.0,
+          "side_rsi": -0.20876032318082083,
+          "side_t20": -0.03159569397242823,
+          "side_t5": -0.11234200743494682,
+          "stretch": 0.08199824432032754,
+          "t20d": 0.03159569397242823,
+          "t5d": 0.11234200743494682,
+          "volr": 0.8778653326464381
+        }
+      },
+      "opened_bar": 1790875800,
+      "side": "short",
+      "sl": 2722.7502721339747,
+      "strategy_id": "vwap_bracket_eth_15m",
+      "target": null,
+      "tf": "15m",
+      "tp": 2696.289863933013
+    },
+    "last_signal_bar": 1790874900,
     "ml": {
       "cal": {
         "a": 0.9899000251365714,
@@ -3980,7 +4033,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790874000,
+    "last_signal_bar": 1790874900,
     "ml": {
       "cal": {
         "a": 0.9950018881885073,
@@ -4449,13 +4502,13 @@
   "zscore_revert_btc": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 4882,
+      "duration_sec": 5435,
       "entry": 84132.8,
       "exit_style": "revert",
       "init_sl": 86792.68539666558,
       "last_bar": 1790870400,
-      "live_pnl_leveraged": -6.63,
-      "live_pnl_pct": -0.663,
+      "live_pnl_leveraged": -10.02,
+      "live_pnl_pct": -1.002,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -4664,13 +4717,13 @@
   "zscore_revert_btc_15m": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 3982,
+      "duration_sec": 4536,
       "entry": 84285.0,
       "exit_style": "revert",
       "init_sl": 85147.78261649075,
-      "last_bar": 1790874000,
-      "live_pnl_leveraged": -4.92,
-      "live_pnl_pct": -0.492,
+      "last_bar": 1790874900,
+      "live_pnl_leveraged": -8.19,
+      "live_pnl_pct": -0.819,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -4712,7 +4765,7 @@
       "side": "short",
       "sl": 85147.78261649075,
       "strategy_id": "zscore_revert_btc_15m",
-      "target": 84016.80500000001,
+      "target": 84082.16500000001,
       "tf": "15m",
       "tp": null
     },
