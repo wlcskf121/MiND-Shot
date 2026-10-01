@@ -2053,8 +2053,61 @@
     }
   },
   "rsi2_bracket_eth_15m": {
-    "active_trade": null,
-    "last_signal_bar": 1790892900,
+    "active_trade": {
+      "asset": "ETH",
+      "duration_sec": 0,
+      "entry": 2700.0,
+      "exit_style": "bracket",
+      "init_sl": 2711.449945549276,
+      "last_bar": 1790894700,
+      "live_pnl_leveraged": 0.0,
+      "live_pnl_pct": 0.0,
+      "ml_snap": {
+        "_pred": {
+          "experts": {
+            "base": 0.754111,
+            "buckets": 0.821958,
+            "ftrl": 0.80651,
+            "pool": 0.819221
+          },
+          "p": 0.800392
+        },
+        "p_tr": null,
+        "rsi_b": 2,
+        "ses_b": 3,
+        "sid": "rsi2_bracket_eth_15m",
+        "side": "short",
+        "strat_b": 11,
+        "t": 1790893800,
+        "v": 2,
+        "vol_b": 1,
+        "x": {
+          "adx": -0.5121394270173796,
+          "atrp": -0.8586426475398011,
+          "dc": -0.900968867902419,
+          "ds": 0.43388373911755823,
+          "hc": 0.8660254037844384,
+          "hs": -0.5000000000000004,
+          "rsi": 0.09715621516391608,
+          "side": -1.0,
+          "side_rsi": -0.09715621516391608,
+          "side_t20": -0.023092056035401615,
+          "side_t5": -0.08794053969600313,
+          "stretch": 0.08419874455326237,
+          "t20d": 0.023092056035401615,
+          "t5d": 0.08794053969600313,
+          "volr": -0.14329255865532542
+        }
+      },
+      "opened_bar": 1790894700,
+      "side": "short",
+      "sl": 2711.449945549276,
+      "strategy_id": "rsi2_bracket_eth_15m",
+      "target": null,
+      "tf": "15m",
+      "tp": 2694.275027225362
+    },
+    "last_signal_bar": 1790893800,
     "ml": {
       "cal": {
         "a": 1.0222099995389637,
@@ -2714,7 +2767,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790892900,
+    "last_signal_bar": 1790893800,
     "ml": {
       "cal": {
         "a": 0.9889061103136287,
@@ -3368,7 +3421,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790892900,
+    "last_signal_bar": 1790893800,
     "ml": {
       "cal": {
         "a": 0.9944850875882129,
@@ -3992,7 +4045,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790892900,
+    "last_signal_bar": 1790893800,
     "ml": {
       "cal": {
         "a": 0.9950018881885073,
@@ -4461,13 +4514,13 @@
   "zscore_revert_btc": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 23434,
+      "duration_sec": 24325,
       "entry": 84132.8,
       "exit_style": "revert",
       "init_sl": 86792.68539666558,
       "last_bar": 1790870400,
-      "live_pnl_leveraged": -6.17,
-      "live_pnl_pct": -0.617,
+      "live_pnl_leveraged": -6.07,
+      "live_pnl_pct": -0.607,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -4509,7 +4562,7 @@
       "side": "short",
       "sl": 86792.68539666558,
       "strategy_id": "zscore_revert_btc",
-      "target": 83719.71499999997,
+      "target": 83719.27499999998,
       "tf": "4h",
       "tp": null
     },
@@ -4675,7 +4728,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1790892900,
+    "last_signal_bar": 1790893800,
     "ml": {
       "cal": {
         "a": 0.98679246712015,
@@ -4976,13 +5029,13 @@
   "zscore_revert_btc_1h": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 16234,
+      "duration_sec": 17125,
       "entry": 84859.7,
       "exit_style": "revert",
       "init_sl": 86409.95335496221,
       "last_bar": 1790888400,
-      "live_pnl_leveraged": 2.45,
-      "live_pnl_pct": 0.245,
+      "live_pnl_leveraged": 2.55,
+      "live_pnl_pct": 0.255,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -5024,7 +5077,7 @@
       "side": "short",
       "sl": 86409.95335496221,
       "strategy_id": "zscore_revert_btc_1h",
-      "target": 84125.38999999998,
+      "target": 84124.94499999999,
       "tf": "1h",
       "tp": null
     },
