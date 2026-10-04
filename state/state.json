@@ -2314,7 +2314,7 @@
   "rsi2_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 32442,
+      "duration_sec": 32455,
       "entry": 2704.37,
       "exit_style": "bracket",
       "init_sl": 2743.9478321399733,
@@ -3867,7 +3867,7 @@
   "vwap_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 942,
+      "duration_sec": 955,
       "entry": 2702.58,
       "exit_style": "bracket",
       "init_sl": 2708.743983595762,
@@ -4862,7 +4862,7 @@
   "vwap_revert_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 32442,
+      "duration_sec": 32455,
       "entry": 2704.37,
       "exit_style": "revert",
       "init_sl": 2719.6422988121612,
@@ -4910,7 +4910,7 @@
       "side": "short",
       "sl": 2719.6422988121612,
       "strategy_id": "vwap_revert_eth_1h",
-      "target": 2696.526073834199,
+      "target": 2696.5269168589343,
       "tf": "1h",
       "tp": null
     },
@@ -5551,7 +5551,7 @@
   "zscore_revert_btc_1h": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 36042,
+      "duration_sec": 36055,
       "entry": 84984.8,
       "exit_style": "revert",
       "init_sl": 85496.84674177344,
@@ -5599,7 +5599,7 @@
       "side": "short",
       "sl": 85496.84674177344,
       "strategy_id": "zscore_revert_btc_1h",
-      "target": 85021.99499999998,
+      "target": 85021.98999999999,
       "tf": "1h",
       "tp": null
     },
