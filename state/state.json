@@ -2416,7 +2416,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791090000,
+    "last_signal_bar": 1791090900,
     "ml": {
       "cal": {
         "a": 0.9812632688420725,
@@ -2723,13 +2723,13 @@
   "rsi2_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 101731,
+      "duration_sec": 102670,
       "entry": 2675.6,
       "exit_style": "bracket",
       "init_sl": 2703.2493335662557,
       "last_bar": 1791086400,
-      "live_pnl_leveraged": -6.37,
-      "live_pnl_pct": -0.637,
+      "live_pnl_leveraged": -6.77,
+      "live_pnl_pct": -0.677,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -2962,13 +2962,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 105331,
+      "duration_sec": 106270,
       "entry": 2667.56,
       "exit_style": "bracket",
       "init_sl": 2591.0149361927,
       "last_bar": 1791072000,
-      "live_pnl_leveraged": 9.41,
-      "live_pnl_pct": 0.941,
+      "live_pnl_leveraged": 9.81,
+      "live_pnl_pct": 0.981,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -3182,7 +3182,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791090000,
+    "last_signal_bar": 1791090900,
     "ml": {
       "cal": {
         "a": 1.0197106043358444,
@@ -3483,13 +3483,13 @@
   "stoch_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 65731,
+      "duration_sec": 66670,
       "entry": 2682.3,
       "exit_style": "bracket",
       "init_sl": 2706.8901606284726,
       "last_bar": 1791086400,
-      "live_pnl_leveraged": -3.86,
-      "live_pnl_pct": -0.386,
+      "live_pnl_leveraged": -4.26,
+      "live_pnl_pct": -0.426,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -3895,7 +3895,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791090000,
+    "last_signal_bar": 1791090900,
     "ml": {
       "cal": {
         "a": 0.9994057835421573,
@@ -4531,7 +4531,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791090000,
+    "last_signal_bar": 1791090900,
     "ml": {
       "cal": {
         "a": 0.993379269388662,
@@ -5172,8 +5172,61 @@
     }
   },
   "zscore_revert_btc_15m": {
-    "active_trade": null,
-    "last_signal_bar": 1791090000,
+    "active_trade": {
+      "asset": "BTC",
+      "duration_sec": 0,
+      "entry": 84822.7,
+      "exit_style": "revert",
+      "init_sl": 84958.40951550737,
+      "last_bar": 1791091800,
+      "live_pnl_leveraged": 0.0,
+      "live_pnl_pct": 0.0,
+      "ml_snap": {
+        "_pred": {
+          "experts": {
+            "base": 0.679115,
+            "buckets": 0.661372,
+            "ftrl": 0.651398,
+            "pool": 0.727793
+          },
+          "p": 0.683982
+        },
+        "p_tr": null,
+        "rsi_b": 2,
+        "ses_b": 0,
+        "sid": "zscore_revert_btc_15m",
+        "side": "short",
+        "strat_b": 14,
+        "t": 1791090900,
+        "v": 2,
+        "vol_b": 0,
+        "x": {
+          "adx": -0.32308079833319037,
+          "atrp": -0.9733347017729168,
+          "dc": 0.6234898018587334,
+          "ds": -0.7818314824680299,
+          "hc": 0.25881904510252074,
+          "hs": 0.9659258262890683,
+          "rsi": 0.14783585518053358,
+          "side": -1.0,
+          "side_rsi": -0.14783585518053358,
+          "side_t20": -0.023875977430220335,
+          "side_t5": -0.034815306452644634,
+          "stretch": 0.11408077966219365,
+          "t20d": 0.023875977430220335,
+          "t5d": 0.034815306452644634,
+          "volr": -0.3021603988343604
+        }
+      },
+      "opened_bar": 1791091800,
+      "side": "short",
+      "sl": 84958.40951550737,
+      "strategy_id": "zscore_revert_btc_15m",
+      "target": 84774.61000000003,
+      "tf": "15m",
+      "tp": null
+    },
+    "last_signal_bar": 1791090900,
     "ml": {
       "cal": {
         "a": 0.9948596602533887,
