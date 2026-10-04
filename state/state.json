@@ -2221,7 +2221,7 @@
   },
   "rsi2_bracket_eth": {
     "active_trade": null,
-    "last_signal_bar": 1791043200,
+    "last_signal_bar": 1791057600,
     "ml": {
       "cal": {
         "a": 1.0096760901558322,
@@ -2389,7 +2389,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791070200,
+    "last_signal_bar": 1791071100,
     "ml": {
       "cal": {
         "a": 0.9968975821017367,
@@ -2696,13 +2696,13 @@
   "rsi2_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 81926,
+      "duration_sec": 82848,
       "entry": 2675.6,
       "exit_style": "bracket",
       "init_sl": 2703.2493335662557,
-      "last_bar": 1791064800,
-      "live_pnl_leveraged": -4.22,
-      "live_pnl_pct": -0.422,
+      "last_bar": 1791068400,
+      "live_pnl_leveraged": -3.81,
+      "live_pnl_pct": -0.381,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -2935,13 +2935,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 85526,
+      "duration_sec": 86448,
       "entry": 2667.56,
       "exit_style": "bracket",
       "init_sl": 2591.0149361927,
-      "last_bar": 1791043200,
-      "live_pnl_leveraged": 7.25,
-      "live_pnl_pct": 0.725,
+      "last_bar": 1791057600,
+      "live_pnl_leveraged": 6.83,
+      "live_pnl_pct": 0.683,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -3155,7 +3155,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791070200,
+    "last_signal_bar": 1791071100,
     "ml": {
       "cal": {
         "a": 1.0197106043358444,
@@ -3456,13 +3456,13 @@
   "stoch_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 45926,
+      "duration_sec": 46848,
       "entry": 2682.3,
       "exit_style": "bracket",
       "init_sl": 2706.8901606284726,
-      "last_bar": 1791064800,
-      "live_pnl_leveraged": -1.71,
-      "live_pnl_pct": -0.171,
+      "last_bar": 1791068400,
+      "live_pnl_leveraged": -1.3,
+      "live_pnl_pct": -0.13,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -3700,7 +3700,7 @@
   },
   "vwap_bracket_eth": {
     "active_trade": null,
-    "last_signal_bar": 1791043200,
+    "last_signal_bar": 1791057600,
     "ml": {
       "cal": {
         "a": 1.010332365915022,
@@ -3868,7 +3868,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791070200,
+    "last_signal_bar": 1791071100,
     "ml": {
       "cal": {
         "a": 0.9994057835421573,
@@ -4168,7 +4168,7 @@
   },
   "vwap_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791064800,
+    "last_signal_bar": 1791068400,
     "ml": {
       "cal": {
         "a": 0.9932419159468149,
@@ -4336,7 +4336,7 @@
   },
   "vwap_revert_eth": {
     "active_trade": null,
-    "last_signal_bar": 1791043200,
+    "last_signal_bar": 1791057600,
     "ml": {
       "cal": {
         "a": 1.009340224568773,
@@ -4504,7 +4504,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791070200,
+    "last_signal_bar": 1791071100,
     "ml": {
       "cal": {
         "a": 0.9895502657086659,
@@ -4810,7 +4810,7 @@
   },
   "vwap_revert_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791064800,
+    "last_signal_bar": 1791068400,
     "ml": {
       "cal": {
         "a": 1.0075546058554576,
@@ -4978,7 +4978,7 @@
   },
   "zscore_revert_btc": {
     "active_trade": null,
-    "last_signal_bar": 1791043200,
+    "last_signal_bar": 1791057600,
     "ml": {
       "cal": {
         "a": 0.9930525656459851,
@@ -5146,7 +5146,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791070200,
+    "last_signal_bar": 1791071100,
     "ml": {
       "cal": {
         "a": 0.9948596602533887,
@@ -5446,7 +5446,7 @@
   },
   "zscore_revert_btc_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791064800,
+    "last_signal_bar": 1791068400,
     "ml": {
       "cal": {
         "a": 0.9909006052634121,
