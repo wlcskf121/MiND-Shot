@@ -1,5 +1,5 @@
 {
-  "trained_at": "2026-09-28 02:38 UTC",
+  "trained_at": "2026-10-04 03:47 UTC",
   "btc": {
     "train_samples": 466,
     "test_samples": 201,
@@ -289,6 +289,15 @@
         "edge": -0.39,
         "beats_baseline": false,
         "train_samples": 14183
+      }
+    },
+    {
+      "at": "2026-10-04 03:47 UTC",
+      "btc": {
+        "error": "insufficient data"
+      },
+      "eth": {
+        "error": "insufficient data"
       }
     }
   ]
