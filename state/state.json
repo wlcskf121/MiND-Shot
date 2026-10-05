@@ -2433,13 +2433,13 @@
   "rsi2_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 99934,
+      "duration_sec": 100849,
       "entry": 2704.37,
       "exit_style": "bracket",
       "init_sl": 2743.9478321399733,
-      "last_bar": 1791172800,
-      "live_pnl_leveraged": -3.93,
-      "live_pnl_pct": -0.393,
+      "last_bar": 1791187200,
+      "live_pnl_leveraged": -4.32,
+      "live_pnl_pct": -0.432,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -2654,13 +2654,13 @@
   "rsi2_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 9034,
+      "duration_sec": 9949,
       "entry": 2718.0,
       "exit_style": "bracket",
       "init_sl": 2705.9563342776805,
-      "last_bar": 1791199800,
-      "live_pnl_leveraged": -1.1,
-      "live_pnl_pct": -0.11,
+      "last_bar": 1791200700,
+      "live_pnl_leveraged": -0.72,
+      "live_pnl_pct": -0.072,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -3012,7 +3012,7 @@
   },
   "rsi2_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791194400,
+    "last_signal_bar": 1791198000,
     "ml": {
       "cal": {
         "a": 0.982722175043408,
@@ -3205,13 +3205,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 13534,
+      "duration_sec": 14449,
       "entry": 2724.96,
       "exit_style": "bracket",
       "init_sl": 2776.254009332448,
       "last_bar": 1791187200,
-      "live_pnl_leveraged": 3.66,
-      "live_pnl_pct": 0.366,
+      "live_pnl_leveraged": 3.27,
+      "live_pnl_pct": 0.327,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -3431,7 +3431,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791199800,
+    "last_signal_bar": 1791200700,
     "ml": {
       "cal": {
         "a": 1.0301249100043455,
@@ -3731,7 +3731,7 @@
   },
   "stoch_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791194400,
+    "last_signal_bar": 1791198000,
     "ml": {
       "cal": {
         "a": 0.9832014799244329,
@@ -3929,7 +3929,7 @@
   },
   "vwap_bracket_eth": {
     "active_trade": null,
-    "last_signal_bar": 1791172800,
+    "last_signal_bar": 1791187200,
     "ml": {
       "cal": {
         "a": 1.010332365915022,
@@ -4097,7 +4097,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791199800,
+    "last_signal_bar": 1791200700,
     "ml": {
       "cal": {
         "a": 0.9901349729168636,
@@ -4403,7 +4403,7 @@
   },
   "vwap_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791194400,
+    "last_signal_bar": 1791198000,
     "ml": {
       "cal": {
         "a": 0.9932419159468149,
@@ -4571,7 +4571,7 @@
   },
   "vwap_revert_eth": {
     "active_trade": null,
-    "last_signal_bar": 1791172800,
+    "last_signal_bar": 1791187200,
     "ml": {
       "cal": {
         "a": 1.009340224568773,
@@ -4739,7 +4739,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791199800,
+    "last_signal_bar": 1791200700,
     "ml": {
       "cal": {
         "a": 0.993379269388662,
@@ -5045,7 +5045,7 @@
   },
   "vwap_revert_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791194400,
+    "last_signal_bar": 1791198000,
     "ml": {
       "cal": {
         "a": 0.9942705280003687,
@@ -5219,7 +5219,7 @@
   },
   "zscore_revert_btc": {
     "active_trade": null,
-    "last_signal_bar": 1791172800,
+    "last_signal_bar": 1791187200,
     "ml": {
       "cal": {
         "a": 0.9930525656459851,
@@ -5387,7 +5387,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791199800,
+    "last_signal_bar": 1791200700,
     "ml": {
       "cal": {
         "a": 0.9843817785043285,
@@ -5687,7 +5687,7 @@
   },
   "zscore_revert_btc_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791194400,
+    "last_signal_bar": 1791198000,
     "ml": {
       "cal": {
         "a": 0.9902367080672178,
