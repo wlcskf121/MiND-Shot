@@ -2406,13 +2406,13 @@
   "rsi2_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 62124,
+      "duration_sec": 63033,
       "entry": 2704.37,
       "exit_style": "bracket",
       "init_sl": 2743.9478321399733,
       "last_bar": 1791144000,
-      "live_pnl_leveraged": -8.86,
-      "live_pnl_pct": -0.886,
+      "live_pnl_leveraged": -8.74,
+      "live_pnl_pct": -0.874,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -2626,7 +2626,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791162000,
+    "last_signal_bar": 1791162900,
     "ml": {
       "cal": {
         "a": 0.9812632688420725,
@@ -3125,13 +3125,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 4524,
+      "duration_sec": 5433,
       "entry": 2725.97,
       "exit_style": "bracket",
       "init_sl": 2775.5140581608925,
       "last_bar": 1791158400,
-      "live_pnl_leveraged": -0.87,
-      "live_pnl_pct": -0.087,
+      "live_pnl_leveraged": -0.74,
+      "live_pnl_pct": -0.074,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -3345,7 +3345,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791162000,
+    "last_signal_bar": 1791162900,
     "ml": {
       "cal": {
         "a": 1.0249539884731071,
@@ -4011,7 +4011,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791162000,
+    "last_signal_bar": 1791162900,
     "ml": {
       "cal": {
         "a": 0.9901349729168636,
@@ -4653,7 +4653,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791162000,
+    "last_signal_bar": 1791162900,
     "ml": {
       "cal": {
         "a": 0.993379269388662,
@@ -5301,7 +5301,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791162000,
+    "last_signal_bar": 1791162900,
     "ml": {
       "cal": {
         "a": 0.9843817785043285,
