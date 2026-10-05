@@ -2406,13 +2406,13 @@
   "rsi2_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 65728,
+      "duration_sec": 66634,
       "entry": 2704.37,
       "exit_style": "bracket",
       "init_sl": 2743.9478321399733,
       "last_bar": 1791144000,
-      "live_pnl_leveraged": -10.43,
-      "live_pnl_pct": -1.043,
+      "live_pnl_leveraged": -10.37,
+      "live_pnl_pct": -1.037,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -2626,7 +2626,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791165600,
+    "last_signal_bar": 1791166500,
     "ml": {
       "cal": {
         "a": 0.9812632688420725,
@@ -3125,13 +3125,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 8128,
+      "duration_sec": 9034,
       "entry": 2725.97,
       "exit_style": "bracket",
       "init_sl": 2775.5140581608925,
       "last_bar": 1791158400,
-      "live_pnl_leveraged": -2.43,
-      "live_pnl_pct": -0.243,
+      "live_pnl_leveraged": -2.36,
+      "live_pnl_pct": -0.236,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -3345,7 +3345,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791165600,
+    "last_signal_bar": 1791166500,
     "ml": {
       "cal": {
         "a": 1.0249539884731071,
@@ -4011,7 +4011,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791165600,
+    "last_signal_bar": 1791166500,
     "ml": {
       "cal": {
         "a": 0.9901349729168636,
@@ -4653,7 +4653,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791165600,
+    "last_signal_bar": 1791166500,
     "ml": {
       "cal": {
         "a": 0.993379269388662,
@@ -5301,7 +5301,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791165600,
+    "last_signal_bar": 1791166500,
     "ml": {
       "cal": {
         "a": 0.9843817785043285,
