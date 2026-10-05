@@ -2723,7 +2723,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791219600,
+    "last_signal_bar": 1791220500,
     "ml": {
       "cal": {
         "a": 0.9667261552307831,
@@ -3395,7 +3395,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791219600,
+    "last_signal_bar": 1791220500,
     "ml": {
       "cal": {
         "a": 1.0401118672294285,
@@ -4061,7 +4061,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791219600,
+    "last_signal_bar": 1791220500,
     "ml": {
       "cal": {
         "a": 0.9788576950077789,
@@ -4703,7 +4703,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791219600,
+    "last_signal_bar": 1791220500,
     "ml": {
       "cal": {
         "a": 0.993379269388662,
@@ -5352,13 +5352,13 @@
   "zscore_revert_btc_15m": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 9029,
+      "duration_sec": 9937,
       "entry": 85715.2,
       "exit_style": "revert",
       "init_sl": 84780.72619281667,
-      "last_bar": 1791219600,
-      "live_pnl_leveraged": -5.3,
-      "live_pnl_pct": -0.53,
+      "last_bar": 1791220500,
+      "live_pnl_leveraged": -4.4,
+      "live_pnl_pct": -0.44,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -5400,7 +5400,7 @@
       "side": "long",
       "sl": 84780.72619281667,
       "strategy_id": "zscore_revert_btc_15m",
-      "target": 85654.79999999997,
+      "target": 85632.53999999998,
       "tf": "15m",
       "tp": null
     },
@@ -5705,13 +5705,13 @@
   "zscore_revert_btc_1h": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 929,
+      "duration_sec": 1837,
       "entry": 85270.1,
       "exit_style": "revert",
       "init_sl": 83892.32198999694,
       "last_bar": 1791219600,
-      "live_pnl_leveraged": -0.11,
-      "live_pnl_pct": -0.011,
+      "live_pnl_leveraged": 0.79,
+      "live_pnl_pct": 0.079,
       "ml_snap": {
         "_pred": {
           "experts": {
