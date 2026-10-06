@@ -1,5 +1,5 @@
 {
-  "trained_at": "2026-10-04 03:47 UTC",
+  "trained_at": "2026-10-06 03:57 UTC",
   "btc": {
     "train_samples": 466,
     "test_samples": 201,
@@ -11,12 +11,12 @@
     "published": false,
     "retired_reason": "no model beats the base-rate baseline",
     "last_challenger": {
-      "oos_acc": 51.0,
-      "oos_logloss": 0.7003,
-      "baseline_logloss": 0.6948,
-      "edge": -0.28,
+      "oos_acc": 50.48,
+      "oos_logloss": 0.7,
+      "baseline_logloss": 0.6947,
+      "edge": -0.66,
       "beats_baseline": false,
-      "train_samples": 14183
+      "train_samples": 14282
     }
   },
   "btc_oos_wr": null,
@@ -32,12 +32,12 @@
     "published": false,
     "retired_reason": "no model beats the base-rate baseline",
     "last_challenger": {
-      "oos_acc": 50.51,
-      "oos_logloss": 0.7017,
-      "baseline_logloss": 0.6944,
-      "edge": -0.39,
+      "oos_acc": 51.41,
+      "oos_logloss": 0.7016,
+      "baseline_logloss": 0.6943,
+      "edge": 0.56,
       "beats_baseline": false,
-      "train_samples": 14183
+      "train_samples": 14282
     }
   },
   "eth_oos_wr": null,
@@ -298,6 +298,25 @@
       },
       "eth": {
         "error": "insufficient data"
+      }
+    },
+    {
+      "at": "2026-10-06 03:57 UTC",
+      "btc": {
+        "oos_acc": 50.48,
+        "oos_logloss": 0.7,
+        "baseline_logloss": 0.6947,
+        "edge": -0.66,
+        "beats_baseline": false,
+        "train_samples": 14282
+      },
+      "eth": {
+        "oos_acc": 51.41,
+        "oos_logloss": 0.7016,
+        "baseline_logloss": 0.6943,
+        "edge": 0.56,
+        "beats_baseline": false,
+        "train_samples": 14282
       }
     }
   ]
