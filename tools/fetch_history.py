@@ -24,6 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "data"
+FIXTURES_DIR = ROOT / "tests" / "fixtures"  # ↑ 改动：dashboard 回测/构建源，与 data/ 同列同名
 
 # 内部周期令牌 -> 欧易 bar 字符串
 BARS = {"15m": "15m", "1h": "1H", "4h": "4H", "1d": "1D"}
@@ -109,9 +110,16 @@ def main() -> None:
                 w.writerow(["open_time", "open", "high", "low", "close", "volume", "close_time"])
                 for t in sorted(existing):
                     w.writerow(existing[t])
+            # 同步一份到 tests/fixtures/ —— 这是 dashboard 的回测/构建源（data/ 仅供实时引擎）
+            FIXTURES_DIR.mkdir(parents=True, exist_ok=True)
+            with open(FIXTURES_DIR / f"{inst}_{tf}.csv", "w", newline="", encoding="utf-8") as f:
+                w = csv.writer(f)
+                w.writerow(["open_time", "open", "high", "low", "close", "volume", "close_time"])
+                for t in sorted(existing):
+                    w.writerow(existing[t])
             span = (max(existing) - min(existing)) / 86400_000 if existing else 0
-            print(f"{inst} {tf}: {len(existing)} 根 / 约 {span:.0f} 天 (+{added} 新增) -> {out}")
+            print(f"{inst} {tf}: {len(existing)} 根 / 约 {span:.0f} 天 (+{added} 新增) -> {out}  (fixtures 已同步)")
 
 
-if __name__ == "__main__":
+if __name__ == "__&#8203;main__":
     main()
