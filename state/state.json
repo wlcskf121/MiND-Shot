@@ -2904,7 +2904,7 @@
   },
   "rsi2_bracket_eth": {
     "active_trade": null,
-    "last_signal_bar": 1791388800,
+    "last_signal_bar": 1791403200,
     "ml": {
       "cal": {
         "a": 1.0151133167176472,
@@ -3078,7 +3078,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791415800,
+    "last_signal_bar": 1791416700,
     "ml": {
       "cal": {
         "a": 0.9559706492596591,
@@ -3384,7 +3384,7 @@
   },
   "rsi2_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791410400,
+    "last_signal_bar": 1791414000,
     "ml": {
       "cal": {
         "a": 0.9685184583743502,
@@ -3582,7 +3582,7 @@
   },
   "stoch_bracket_eth": {
     "active_trade": null,
-    "last_signal_bar": 1791388800,
+    "last_signal_bar": 1791403200,
     "ml": {
       "cal": {
         "a": 1.0262619194312632,
@@ -3756,7 +3756,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791415800,
+    "last_signal_bar": 1791416700,
     "ml": {
       "cal": {
         "a": 0.968480035936745,
@@ -4056,7 +4056,7 @@
   },
   "stoch_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791410400,
+    "last_signal_bar": 1791414000,
     "ml": {
       "cal": {
         "a": 0.9670409955338323,
@@ -4260,7 +4260,7 @@
   },
   "vwap_bracket_eth": {
     "active_trade": null,
-    "last_signal_bar": 1791388800,
+    "last_signal_bar": 1791403200,
     "ml": {
       "cal": {
         "a": 1.010332365915022,
@@ -4428,7 +4428,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791415800,
+    "last_signal_bar": 1791416700,
     "ml": {
       "cal": {
         "a": 0.9638950041137857,
@@ -4740,7 +4740,7 @@
   },
   "vwap_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791410400,
+    "last_signal_bar": 1791414000,
     "ml": {
       "cal": {
         "a": 0.9879806134084504,
@@ -4920,7 +4920,7 @@
   },
   "vwap_revert_eth": {
     "active_trade": null,
-    "last_signal_bar": 1791388800,
+    "last_signal_bar": 1791403200,
     "ml": {
       "cal": {
         "a": 1.009340224568773,
@@ -5088,7 +5088,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791415800,
+    "last_signal_bar": 1791416700,
     "ml": {
       "cal": {
         "a": 0.974548152328243,
@@ -5394,7 +5394,7 @@
   },
   "vwap_revert_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791410400,
+    "last_signal_bar": 1791414000,
     "ml": {
       "cal": {
         "a": 0.9855440591757367,
@@ -5580,7 +5580,7 @@
   },
   "zscore_revert_btc": {
     "active_trade": null,
-    "last_signal_bar": 1791388800,
+    "last_signal_bar": 1791403200,
     "ml": {
       "cal": {
         "a": 0.9930525656459851,
@@ -5748,7 +5748,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791415800,
+    "last_signal_bar": 1791416700,
     "ml": {
       "cal": {
         "a": 0.9773486384740635,
@@ -6054,7 +6054,7 @@
   },
   "zscore_revert_btc_1h": {
     "active_trade": null,
-    "last_signal_bar": 1791410400,
+    "last_signal_bar": 1791414000,
     "ml": {
       "cal": {
         "a": 0.9908541772672207,
