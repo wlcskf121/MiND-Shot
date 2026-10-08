@@ -3079,13 +3079,13 @@
   "rsi2_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 0,
+      "duration_sec": 935,
       "entry": 2580.69,
       "exit_style": "bracket",
       "init_sl": 2589.539848413281,
       "last_bar": 1791422100,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": 0.3,
+      "live_pnl_pct": 0.03,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -3809,7 +3809,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791421200,
+    "last_signal_bar": 1791422100,
     "ml": {
       "cal": {
         "a": 0.968480035936745,
@@ -4482,13 +4482,13 @@
   "vwap_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 0,
+      "duration_sec": 935,
       "entry": 2580.69,
       "exit_style": "bracket",
       "init_sl": 2589.539848413281,
       "last_bar": 1791422100,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": 0.3,
+      "live_pnl_pct": 0.03,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -5195,13 +5195,13 @@
   "vwap_revert_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 0,
+      "duration_sec": 935,
       "entry": 2580.69,
       "exit_style": "revert",
       "init_sl": 2592.489797884375,
       "last_bar": 1791422100,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": 0.3,
+      "live_pnl_pct": 0.03,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -5243,7 +5243,7 @@
       "side": "short",
       "sl": 2592.489797884375,
       "strategy_id": "vwap_revert_eth_15m",
-      "target": 2573.111896937976,
+      "target": 2573.8946733914067,
       "tf": "15m",
       "tp": null
     },
@@ -5907,7 +5907,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791421200,
+    "last_signal_bar": 1791422100,
     "ml": {
       "cal": {
         "a": 0.9773486384740635,
