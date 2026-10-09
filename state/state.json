@@ -3366,7 +3366,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791530100,
+    "last_signal_bar": 1791531000,
     "ml": {
       "cal": {
         "a": 0.9455695963100248,
@@ -4044,7 +4044,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791530100,
+    "last_signal_bar": 1791531000,
     "ml": {
       "cal": {
         "a": 0.9475803261353394,
@@ -4716,7 +4716,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791530100,
+    "last_signal_bar": 1791531000,
     "ml": {
       "cal": {
         "a": 0.9571056991396942,
@@ -5376,7 +5376,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791530100,
+    "last_signal_bar": 1791531000,
     "ml": {
       "cal": {
         "a": 0.969748555043258,
@@ -6036,7 +6036,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791530100,
+    "last_signal_bar": 1791531000,
     "ml": {
       "cal": {
         "a": 0.9624386016528226,
