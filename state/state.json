@@ -3549,7 +3549,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791620100,
+    "last_signal_bar": 1791621000,
     "ml": {
       "cal": {
         "a": 0.9403368596306485,
@@ -3856,13 +3856,13 @@
   "rsi2_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 23436,
+      "duration_sec": 24328,
       "entry": 2494.61,
       "exit_style": "bracket",
       "init_sl": 2514.4811571990717,
       "last_bar": 1791615600,
-      "live_pnl_leveraged": 0.6,
-      "live_pnl_pct": 0.06,
+      "live_pnl_leveraged": 0.58,
+      "live_pnl_pct": 0.058,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -4280,7 +4280,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791620100,
+    "last_signal_bar": 1791621000,
     "ml": {
       "cal": {
         "a": 0.9564198407169672,
@@ -4581,13 +4581,13 @@
   "stoch_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 12636,
+      "duration_sec": 13528,
       "entry": 2493.72,
       "exit_style": "bracket",
       "init_sl": 2516.6927052308283,
       "last_bar": 1791615600,
-      "live_pnl_leveraged": 0.24,
-      "live_pnl_pct": 0.024,
+      "live_pnl_leveraged": 0.22,
+      "live_pnl_pct": 0.022,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -5005,7 +5005,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791620100,
+    "last_signal_bar": 1791621000,
     "ml": {
       "cal": {
         "a": 0.966502985720433,
@@ -5665,7 +5665,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791620100,
+    "last_signal_bar": 1791621000,
     "ml": {
       "cal": {
         "a": 0.9717395851309473,
@@ -6325,7 +6325,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791620100,
+    "last_signal_bar": 1791621000,
     "ml": {
       "cal": {
         "a": 0.9585960203434788,
