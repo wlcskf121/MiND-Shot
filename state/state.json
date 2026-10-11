@@ -4148,7 +4148,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791745200,
+    "last_signal_bar": 1791746100,
     "ml": {
       "cal": {
         "a": 0.9639365275078369,
@@ -4832,7 +4832,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791745200,
+    "last_signal_bar": 1791746100,
     "ml": {
       "cal": {
         "a": 0.968309190173892,
@@ -5516,7 +5516,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791745200,
+    "last_signal_bar": 1791746100,
     "ml": {
       "cal": {
         "a": 0.9814047126076755,
@@ -6194,7 +6194,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791745200,
+    "last_signal_bar": 1791746100,
     "ml": {
       "cal": {
         "a": 0.9696885049673395,
@@ -6501,13 +6501,13 @@
   "vwap_revert_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 8126,
+      "duration_sec": 9038,
       "entry": 2549.03,
       "exit_style": "revert",
       "init_sl": 2569.502494866067,
       "last_bar": 1791741600,
-      "live_pnl_leveraged": 5.7,
-      "live_pnl_pct": 0.57,
+      "live_pnl_leveraged": 5.96,
+      "live_pnl_pct": 0.596,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -6549,7 +6549,7 @@
       "side": "short",
       "sl": 2569.502494866067,
       "strategy_id": "vwap_revert_eth_1h",
-      "target": 2522.438649138195,
+      "target": 2522.493980099649,
       "tf": "1h",
       "tp": null
     },
@@ -6746,13 +6746,13 @@
   "zscore_revert_btc": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 11726,
+      "duration_sec": 12638,
       "entry": 83864.3,
       "exit_style": "revert",
       "init_sl": 85638.43096406723,
       "last_bar": 1791734400,
-      "live_pnl_leveraged": 2.43,
-      "live_pnl_pct": 0.243,
+      "live_pnl_leveraged": 2.37,
+      "live_pnl_pct": 0.237,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -6966,7 +6966,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791745200,
+    "last_signal_bar": 1791746100,
     "ml": {
       "cal": {
         "a": 0.9715150370255383,
