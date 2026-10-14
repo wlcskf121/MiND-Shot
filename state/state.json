@@ -4671,7 +4671,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791951300,
+    "last_signal_bar": 1791952200,
     "ml": {
       "cal": {
         "a": 0.9614189311686425,
@@ -5355,7 +5355,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791951300,
+    "last_signal_bar": 1791952200,
     "ml": {
       "cal": {
         "a": 0.9636389913974549,
@@ -6039,7 +6039,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791951300,
+    "last_signal_bar": 1791952200,
     "ml": {
       "cal": {
         "a": 0.980062655494337,
@@ -6717,7 +6717,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791951300,
+    "last_signal_bar": 1791952200,
     "ml": {
       "cal": {
         "a": 0.9700404385716811,
@@ -7402,13 +7402,13 @@
   "zscore_revert_btc_15m": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 5437,
+      "duration_sec": 6327,
       "entry": 83604.7,
       "exit_style": "revert",
       "init_sl": 84131.55822689735,
-      "last_bar": 1791951300,
-      "live_pnl_leveraged": -2.23,
-      "live_pnl_pct": -0.223,
+      "last_bar": 1791952200,
+      "live_pnl_leveraged": -1.26,
+      "live_pnl_pct": -0.126,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7450,7 +7450,7 @@
       "side": "short",
       "sl": 84131.55822689735,
       "strategy_id": "zscore_revert_btc_15m",
-      "target": 83486.49,
+      "target": 83510.62000000001,
       "tf": "15m",
       "tp": null
     },
@@ -7761,13 +7761,13 @@
   "zscore_revert_btc_1h": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 1837,
+      "duration_sec": 2727,
       "entry": 83666.0,
       "exit_style": "revert",
       "init_sl": 84888.9146884156,
       "last_bar": 1791950400,
-      "live_pnl_leveraged": -1.5,
-      "live_pnl_pct": -0.15,
+      "live_pnl_leveraged": -0.53,
+      "live_pnl_pct": -0.053,
       "ml_snap": {
         "_pred": {
           "experts": {
