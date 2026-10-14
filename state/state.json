@@ -4736,7 +4736,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791967500,
+    "last_signal_bar": 1791968400,
     "ml": {
       "cal": {
         "a": 0.9720018841540756,
@@ -5421,13 +5421,13 @@
   "stoch_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 0,
+      "duration_sec": 931,
       "entry": 2504.6,
       "exit_style": "bracket",
       "init_sl": 2489.495780509222,
       "last_bar": 1791968400,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": 0.4,
+      "live_pnl_pct": 0.04,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -6157,7 +6157,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791967500,
+    "last_signal_bar": 1791968400,
     "ml": {
       "cal": {
         "a": 0.980062655494337,
@@ -6835,7 +6835,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791967500,
+    "last_signal_bar": 1791968400,
     "ml": {
       "cal": {
         "a": 0.9700404385716811,
@@ -7519,7 +7519,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1791967500,
+    "last_signal_bar": 1791968400,
     "ml": {
       "cal": {
         "a": 1.0179392835020824,
@@ -7826,13 +7826,13 @@
   "zscore_revert_btc_1h": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 18051,
+      "duration_sec": 18931,
       "entry": 83666.0,
       "exit_style": "revert",
       "init_sl": 84888.9146884156,
       "last_bar": 1791964800,
-      "live_pnl_leveraged": 2.74,
-      "live_pnl_pct": 0.274,
+      "live_pnl_leveraged": 2.86,
+      "live_pnl_pct": 0.286,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7874,7 +7874,7 @@
       "side": "short",
       "sl": 84888.9146884156,
       "strategy_id": "zscore_revert_btc_1h",
-      "target": 83400.59999999998,
+      "target": 83400.09499999999,
       "tf": "1h",
       "tp": null
     },
