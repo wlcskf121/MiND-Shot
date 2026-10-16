@@ -7662,13 +7662,13 @@
   "vwap_revert_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 9930,
+      "duration_sec": 10777,
       "entry": 2476.38,
       "exit_style": "revert",
       "init_sl": 2516.2132302747095,
       "last_bar": 1792155600,
-      "live_pnl_leveraged": 1.2,
-      "live_pnl_pct": 0.12,
+      "live_pnl_leveraged": 7.18,
+      "live_pnl_pct": 0.718,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7710,7 +7710,7 @@
       "side": "short",
       "sl": 2516.2132302747095,
       "strategy_id": "vwap_revert_eth_1h",
-      "target": 2456.306373433958,
+      "target": 2456.129629378141,
       "tf": "1h",
       "tp": null
     },
