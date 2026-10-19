@@ -5924,7 +5924,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792435500,
+    "last_signal_bar": 1792436400,
     "ml": {
       "cal": {
         "a": 0.9371143287693375,
@@ -6608,7 +6608,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792435500,
+    "last_signal_bar": 1792436400,
     "ml": {
       "cal": {
         "a": 0.9546719681084928,
@@ -6921,13 +6921,13 @@
   "stoch_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 10849,
+      "duration_sec": 11728,
       "entry": 2393.35,
       "exit_style": "bracket",
       "init_sl": 2353.9797594400175,
       "last_bar": 1792432800,
-      "live_pnl_leveraged": 2.2,
-      "live_pnl_pct": 0.22,
+      "live_pnl_leveraged": 2.09,
+      "live_pnl_pct": 0.209,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7351,7 +7351,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792435500,
+    "last_signal_bar": 1792436400,
     "ml": {
       "cal": {
         "a": 0.949617025613772,
@@ -8035,7 +8035,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792435500,
+    "last_signal_bar": 1792436400,
     "ml": {
       "cal": {
         "a": 0.9575785581344906,
@@ -8732,13 +8732,13 @@
   "zscore_revert_btc_15m": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 11749,
+      "duration_sec": 12628,
       "entry": 82033.8,
       "exit_style": "revert",
       "init_sl": 81227.54273805411,
-      "last_bar": 1792435500,
-      "live_pnl_leveraged": -1.54,
-      "live_pnl_pct": -0.154,
+      "last_bar": 1792436400,
+      "live_pnl_leveraged": -1.89,
+      "live_pnl_pct": -0.189,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -8780,7 +8780,7 @@
       "side": "long",
       "sl": 81227.54273805411,
       "strategy_id": "zscore_revert_btc_15m",
-      "target": 81999.93,
+      "target": 81986.71,
       "tf": "15m",
       "tp": null
     },
