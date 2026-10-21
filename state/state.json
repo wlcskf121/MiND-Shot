@@ -6446,7 +6446,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792581300,
+    "last_signal_bar": 1792582200,
     "ml": {
       "cal": {
         "a": 0.9015663755436422,
@@ -7131,13 +7131,13 @@
   "stoch_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 0,
+      "duration_sec": 932,
       "entry": 2463.76,
       "exit_style": "bracket",
       "init_sl": 2478.0466118185636,
       "last_bar": 1792582200,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": 0.97,
+      "live_pnl_pct": 0.097,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7873,7 +7873,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792581300,
+    "last_signal_bar": 1792582200,
     "ml": {
       "cal": {
         "a": 0.949358019468791,
@@ -8557,7 +8557,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792581300,
+    "last_signal_bar": 1792582200,
     "ml": {
       "cal": {
         "a": 0.9588182693068426,
@@ -9074,13 +9074,13 @@
   "zscore_revert_btc": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 41437,
+      "duration_sec": 42332,
       "entry": 82984.6,
       "exit_style": "revert",
       "init_sl": 85448.54744905108,
       "last_bar": 1792555200,
-      "live_pnl_leveraged": -6.17,
-      "live_pnl_pct": -0.617,
+      "live_pnl_leveraged": -5.13,
+      "live_pnl_pct": -0.513,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -9122,7 +9122,7 @@
       "side": "short",
       "sl": 85448.54744905108,
       "strategy_id": "zscore_revert_btc",
-      "target": 82169.79499999998,
+      "target": 82165.48,
       "tf": "4h",
       "tp": null
     },
@@ -9306,7 +9306,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792581300,
+    "last_signal_bar": 1792582200,
     "ml": {
       "cal": {
         "a": 0.9803952057984104,
