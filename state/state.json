@@ -6433,7 +6433,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792572300,
+    "last_signal_bar": 1792573200,
     "ml": {
       "cal": {
         "a": 0.9015663755436422,
@@ -7118,13 +7118,13 @@
   "stoch_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 1848,
+      "duration_sec": 2727,
       "entry": 2455.72,
       "exit_style": "bracket",
       "init_sl": 2468.627573169616,
-      "last_bar": 1792572300,
-      "live_pnl_leveraged": 1.32,
-      "live_pnl_pct": 0.132,
+      "last_bar": 1792573200,
+      "live_pnl_leveraged": -3.12,
+      "live_pnl_pct": -0.312,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7860,7 +7860,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792572300,
+    "last_signal_bar": 1792573200,
     "ml": {
       "cal": {
         "a": 0.949358019468791,
@@ -8544,7 +8544,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792572300,
+    "last_signal_bar": 1792573200,
     "ml": {
       "cal": {
         "a": 0.9588182693068426,
@@ -9061,13 +9061,13 @@
   "zscore_revert_btc": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 32447,
+      "duration_sec": 33327,
       "entry": 82984.6,
       "exit_style": "revert",
       "init_sl": 85448.54744905108,
       "last_bar": 1792555200,
-      "live_pnl_leveraged": -2.79,
-      "live_pnl_pct": -0.279,
+      "live_pnl_leveraged": -6.98,
+      "live_pnl_pct": -0.698,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -9109,7 +9109,7 @@
       "side": "short",
       "sl": 85448.54744905108,
       "strategy_id": "zscore_revert_btc",
-      "target": 82155.79999999999,
+      "target": 82173.18,
       "tf": "4h",
       "tp": null
     },
@@ -9293,7 +9293,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792572300,
+    "last_signal_bar": 1792573200,
     "ml": {
       "cal": {
         "a": 0.9803952057984104,
