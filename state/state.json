@@ -7095,13 +7095,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 18932,
+      "duration_sec": 19598,
       "entry": 2399.17,
       "exit_style": "bracket",
       "init_sl": 2324.6058978219708,
       "last_bar": 1792670400,
-      "live_pnl_leveraged": -9.92,
-      "live_pnl_pct": -0.992,
+      "live_pnl_leveraged": -7.64,
+      "live_pnl_pct": -0.764,
       "ml_snap": {
         "_pred": {
           "experts": {
