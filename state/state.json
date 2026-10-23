@@ -6923,7 +6923,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792767600,
+    "last_signal_bar": 1792768500,
     "ml": {
       "cal": {
         "a": 0.9279896666875207,
@@ -7434,13 +7434,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 98129,
+      "duration_sec": 99039,
       "entry": 2399.17,
       "exit_style": "bracket",
       "init_sl": 2324.6058978219708,
       "last_bar": 1792742400,
-      "live_pnl_leveraged": 0.65,
-      "live_pnl_pct": 0.065,
+      "live_pnl_leveraged": 1.84,
+      "live_pnl_pct": 0.184,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7666,7 +7666,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792767600,
+    "last_signal_bar": 1792768500,
     "ml": {
       "cal": {
         "a": 0.9915668016452839,
@@ -8362,7 +8362,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792767600,
+    "last_signal_bar": 1792768500,
     "ml": {
       "cal": {
         "a": 0.9490980839700099,
@@ -9046,7 +9046,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792767600,
+    "last_signal_bar": 1792768500,
     "ml": {
       "cal": {
         "a": 0.9634188678968683,
@@ -9743,13 +9743,13 @@
   "zscore_revert_btc_15m": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 0,
+      "duration_sec": 939,
       "entry": 81437.9,
       "exit_style": "revert",
       "init_sl": 80637.99973838078,
       "last_bar": 1792768500,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": 1.41,
+      "live_pnl_pct": 0.141,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -9791,7 +9791,7 @@
       "side": "long",
       "sl": 80637.99973838078,
       "strategy_id": "zscore_revert_btc_15m",
-      "target": 81671.90499999998,
+      "target": 81659.275,
       "tf": "15m",
       "tp": null
     },
