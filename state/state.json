@@ -7014,7 +7014,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792796400,
+    "last_signal_bar": 1792797300,
     "ml": {
       "cal": {
         "a": 0.9148731132686516,
@@ -7525,13 +7525,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 126926,
+      "duration_sec": 127835,
       "entry": 2399.17,
       "exit_style": "bracket",
       "init_sl": 2324.6058978219708,
       "last_bar": 1792771200,
-      "live_pnl_leveraged": -14.24,
-      "live_pnl_pct": -1.424,
+      "live_pnl_leveraged": -10.31,
+      "live_pnl_pct": -1.031,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7757,7 +7757,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792796400,
+    "last_signal_bar": 1792797300,
     "ml": {
       "cal": {
         "a": 0.9845454860231735,
@@ -8453,7 +8453,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792796400,
+    "last_signal_bar": 1792797300,
     "ml": {
       "cal": {
         "a": 0.9490980839700099,
@@ -8766,13 +8766,13 @@
   "vwap_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 926,
+      "duration_sec": 1835,
       "entry": 2365.97,
       "exit_style": "bracket",
       "init_sl": 2339.5013356154564,
       "last_bar": 1792796400,
-      "live_pnl_leveraged": -0.41,
-      "live_pnl_pct": -0.041,
+      "live_pnl_leveraged": 3.58,
+      "live_pnl_pct": 0.358,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -9190,7 +9190,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792796400,
+    "last_signal_bar": 1792797300,
     "ml": {
       "cal": {
         "a": 0.9590304451167304,
@@ -9886,7 +9886,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792796400,
+    "last_signal_bar": 1792797300,
     "ml": {
       "cal": {
         "a": 0.9971576157883582,
