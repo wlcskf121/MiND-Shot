@@ -6754,7 +6754,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792745100,
+    "last_signal_bar": 1792746000,
     "ml": {
       "cal": {
         "a": 0.9118966632428721,
@@ -7265,13 +7265,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 75647,
+      "duration_sec": 76528,
       "entry": 2399.17,
       "exit_style": "bracket",
       "init_sl": 2324.6058978219708,
       "last_bar": 1792728000,
-      "live_pnl_leveraged": 1.53,
-      "live_pnl_pct": 0.153,
+      "live_pnl_leveraged": 2.14,
+      "live_pnl_pct": 0.214,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7497,7 +7497,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792745100,
+    "last_signal_bar": 1792746000,
     "ml": {
       "cal": {
         "a": 0.9702900910941322,
@@ -7810,13 +7810,13 @@
   "stoch_bracket_eth_1h": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 7247,
+      "duration_sec": 8128,
       "entry": 2408.81,
       "exit_style": "bracket",
       "init_sl": 2443.1318174067655,
       "last_bar": 1792742400,
-      "live_pnl_leveraged": 2.27,
-      "live_pnl_pct": 0.227,
+      "live_pnl_leveraged": 1.87,
+      "live_pnl_pct": 0.187,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -8246,7 +8246,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792745100,
+    "last_signal_bar": 1792746000,
     "ml": {
       "cal": {
         "a": 0.9444634122005802,
@@ -8930,7 +8930,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792745100,
+    "last_signal_bar": 1792746000,
     "ml": {
       "cal": {
         "a": 0.9607585929347082,
@@ -9626,7 +9626,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792745100,
+    "last_signal_bar": 1792746000,
     "ml": {
       "cal": {
         "a": 0.9964857068743868,
