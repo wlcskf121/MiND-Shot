@@ -6963,13 +6963,13 @@
   "rsi2_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 6329,
+      "duration_sec": 7247,
       "entry": 2401.14,
       "exit_style": "bracket",
       "init_sl": 2389.080380401009,
-      "last_bar": 1792787400,
-      "live_pnl_leveraged": 0.01,
-      "live_pnl_pct": 0.001,
+      "last_bar": 1792788300,
+      "live_pnl_leveraged": 0.45,
+      "live_pnl_pct": 0.045,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7321,7 +7321,7 @@
   },
   "rsi2_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1792782000,
+    "last_signal_bar": 1792785600,
     "ml": {
       "cal": {
         "a": 0.9494580529077521,
@@ -7526,13 +7526,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 117929,
+      "duration_sec": 118847,
       "entry": 2399.17,
       "exit_style": "bracket",
       "init_sl": 2324.6058978219708,
       "last_bar": 1792771200,
-      "live_pnl_leveraged": 0.83,
-      "live_pnl_pct": 0.083,
+      "live_pnl_leveraged": 1.27,
+      "live_pnl_pct": 0.127,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7758,7 +7758,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792787400,
+    "last_signal_bar": 1792788300,
     "ml": {
       "cal": {
         "a": 1.0024088150272987,
@@ -8070,7 +8070,7 @@
   },
   "stoch_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1792782000,
+    "last_signal_bar": 1792785600,
     "ml": {
       "cal": {
         "a": 0.988088800059878,
@@ -8454,7 +8454,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792787400,
+    "last_signal_bar": 1792788300,
     "ml": {
       "cal": {
         "a": 0.9490980839700099,
@@ -8766,7 +8766,7 @@
   },
   "vwap_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1792782000,
+    "last_signal_bar": 1792785600,
     "ml": {
       "cal": {
         "a": 0.9884163414944902,
@@ -9138,7 +9138,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792787400,
+    "last_signal_bar": 1792788300,
     "ml": {
       "cal": {
         "a": 0.9634188678968683,
@@ -9450,7 +9450,7 @@
   },
   "vwap_revert_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1792782000,
+    "last_signal_bar": 1792785600,
     "ml": {
       "cal": {
         "a": 0.9798631842930287,
@@ -9835,13 +9835,13 @@
   "zscore_revert_btc_15m": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 5430,
+      "duration_sec": 6347,
       "entry": 81270.1,
       "exit_style": "revert",
       "init_sl": 80687.95256029021,
-      "last_bar": 1792787400,
-      "live_pnl_leveraged": 2.13,
-      "live_pnl_pct": 0.213,
+      "last_bar": 1792788300,
+      "live_pnl_leveraged": 1.91,
+      "live_pnl_pct": 0.191,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -9883,7 +9883,7 @@
       "side": "long",
       "sl": 80687.95256029021,
       "strategy_id": "zscore_revert_btc_15m",
-      "target": 81488.45500000002,
+      "target": 81479.34000000001,
       "tf": "15m",
       "tp": null
     },
@@ -10199,7 +10199,7 @@
   },
   "zscore_revert_btc_1h": {
     "active_trade": null,
-    "last_signal_bar": 1792782000,
+    "last_signal_bar": 1792785600,
     "ml": {
       "cal": {
         "a": 0.9934633210708042,
