@@ -6963,13 +6963,13 @@
   "rsi2_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 9036,
+      "duration_sec": 9927,
       "entry": 2401.14,
       "exit_style": "bracket",
       "init_sl": 2389.080380401009,
-      "last_bar": 1792790100,
-      "live_pnl_leveraged": -0.82,
-      "live_pnl_pct": -0.082,
+      "last_bar": 1792791000,
+      "live_pnl_leveraged": -1.34,
+      "live_pnl_pct": -0.134,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7526,13 +7526,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 120636,
+      "duration_sec": 121527,
       "entry": 2399.17,
       "exit_style": "bracket",
       "init_sl": 2324.6058978219708,
       "last_bar": 1792771200,
-      "live_pnl_leveraged": -0.0,
-      "live_pnl_pct": -0.0,
+      "live_pnl_leveraged": -0.52,
+      "live_pnl_pct": -0.052,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7758,7 +7758,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792790100,
+    "last_signal_bar": 1792791000,
     "ml": {
       "cal": {
         "a": 1.0024088150272987,
@@ -8454,7 +8454,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792790100,
+    "last_signal_bar": 1792791000,
     "ml": {
       "cal": {
         "a": 0.9490980839700099,
@@ -9138,7 +9138,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792790100,
+    "last_signal_bar": 1792791000,
     "ml": {
       "cal": {
         "a": 0.9634188678968683,
@@ -9835,13 +9835,13 @@
   "zscore_revert_btc_15m": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 8136,
+      "duration_sec": 9027,
       "entry": 81270.1,
       "exit_style": "revert",
       "init_sl": 80687.95256029021,
-      "last_bar": 1792790100,
-      "live_pnl_leveraged": 0.95,
-      "live_pnl_pct": 0.095,
+      "last_bar": 1792791000,
+      "live_pnl_leveraged": 0.64,
+      "live_pnl_pct": 0.064,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -9883,7 +9883,7 @@
       "side": "long",
       "sl": 80687.95256029021,
       "strategy_id": "zscore_revert_btc_15m",
-      "target": 81453.77500000001,
+      "target": 81434.40000000001,
       "tf": "15m",
       "tp": null
     },
