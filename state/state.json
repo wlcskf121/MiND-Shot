@@ -6927,13 +6927,13 @@
   "rsi2_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 34237,
+      "duration_sec": 35127,
       "entry": 2381.64,
       "exit_style": "bracket",
       "init_sl": 2330.021476897131,
       "last_bar": 1792828800,
-      "live_pnl_leveraged": -5.65,
-      "live_pnl_pct": -0.565,
+      "live_pnl_leveraged": -6.54,
+      "live_pnl_pct": -0.654,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7159,7 +7159,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792847700,
+    "last_signal_bar": 1792848600,
     "ml": {
       "cal": {
         "a": 0.9051541206356747,
@@ -7670,13 +7670,13 @@
   "stoch_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 178237,
+      "duration_sec": 179127,
       "entry": 2399.17,
       "exit_style": "bracket",
       "init_sl": 2324.6058978219708,
       "last_bar": 1792828800,
-      "live_pnl_leveraged": -12.92,
-      "live_pnl_pct": -1.292,
+      "live_pnl_leveraged": -13.8,
+      "live_pnl_pct": -1.38,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7902,7 +7902,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792847700,
+    "last_signal_bar": 1792848600,
     "ml": {
       "cal": {
         "a": 0.974158212957965,
@@ -8598,7 +8598,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792847700,
+    "last_signal_bar": 1792848600,
     "ml": {
       "cal": {
         "a": 0.9437170705227439,
@@ -9288,7 +9288,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792847700,
+    "last_signal_bar": 1792848600,
     "ml": {
       "cal": {
         "a": 0.9583726522911492,
@@ -9984,7 +9984,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1792847700,
+    "last_signal_bar": 1792848600,
     "ml": {
       "cal": {
         "a": 1.0024150509275376,
