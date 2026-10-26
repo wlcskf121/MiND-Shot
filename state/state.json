@@ -7137,7 +7137,7 @@
   },
   "rsi2_bracket_eth": {
     "active_trade": null,
-    "last_signal_bar": 1792987200,
+    "last_signal_bar": 1793001600,
     "ml": {
       "cal": {
         "a": 0.9744671009056168,
@@ -7317,7 +7317,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793014200,
+    "last_signal_bar": 1793015100,
     "ml": {
       "cal": {
         "a": 0.9135741264442291,
@@ -7623,7 +7623,7 @@
   },
   "rsi2_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793008800,
+    "last_signal_bar": 1793012400,
     "ml": {
       "cal": {
         "a": 0.9494580529077521,
@@ -7827,7 +7827,7 @@
   },
   "stoch_bracket_eth": {
     "active_trade": null,
-    "last_signal_bar": 1792987200,
+    "last_signal_bar": 1793001600,
     "ml": {
       "cal": {
         "a": 1.0012664564134988,
@@ -8008,13 +8008,13 @@
   "stoch_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 11037,
+      "duration_sec": 11747,
       "entry": 2327.89,
       "exit_style": "bracket",
       "init_sl": 2348.4908930700844,
-      "last_bar": 1793014200,
-      "live_pnl_leveraged": -0.46,
-      "live_pnl_pct": -0.046,
+      "last_bar": 1793015100,
+      "live_pnl_leveraged": -1.36,
+      "live_pnl_pct": -0.136,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -8372,7 +8372,7 @@
   },
   "stoch_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793008800,
+    "last_signal_bar": 1793012400,
     "ml": {
       "cal": {
         "a": 0.988088800059878,
@@ -8582,7 +8582,7 @@
   },
   "vwap_bracket_eth": {
     "active_trade": null,
-    "last_signal_bar": 1792987200,
+    "last_signal_bar": 1793001600,
     "ml": {
       "cal": {
         "a": 1.0157933781130875,
@@ -8756,7 +8756,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793014200,
+    "last_signal_bar": 1793015100,
     "ml": {
       "cal": {
         "a": 0.9375864012315477,
@@ -9068,7 +9068,7 @@
   },
   "vwap_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793008800,
+    "last_signal_bar": 1793012400,
     "ml": {
       "cal": {
         "a": 0.9925890030582225,
@@ -9278,7 +9278,7 @@
   },
   "vwap_revert_eth": {
     "active_trade": null,
-    "last_signal_bar": 1792987200,
+    "last_signal_bar": 1793001600,
     "ml": {
       "cal": {
         "a": 1.009340224568773,
@@ -9446,7 +9446,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793014200,
+    "last_signal_bar": 1793015100,
     "ml": {
       "cal": {
         "a": 0.9541004019949237,
@@ -9758,7 +9758,7 @@
   },
   "vwap_revert_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793008800,
+    "last_signal_bar": 1793012400,
     "ml": {
       "cal": {
         "a": 0.9798631842930287,
@@ -9962,7 +9962,7 @@
   },
   "zscore_revert_btc": {
     "active_trade": null,
-    "last_signal_bar": 1792987200,
+    "last_signal_bar": 1793001600,
     "ml": {
       "cal": {
         "a": 1.0112143105755198,
@@ -10143,13 +10143,13 @@
   "zscore_revert_btc_15m": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 11037,
+      "duration_sec": 11747,
       "entry": 80281.2,
       "exit_style": "revert",
       "init_sl": 81010.62556750378,
-      "last_bar": 1793014200,
-      "live_pnl_leveraged": -0.51,
-      "live_pnl_pct": -0.051,
+      "last_bar": 1793015100,
+      "live_pnl_leveraged": -0.96,
+      "live_pnl_pct": -0.096,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -10191,7 +10191,7 @@
       "side": "short",
       "sl": 81010.62556750378,
       "strategy_id": "zscore_revert_btc_15m",
-      "target": 80251.77000000002,
+      "target": 80268.99000000002,
       "tf": "15m",
       "tp": null
     },
@@ -10507,7 +10507,7 @@
   },
   "zscore_revert_btc_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793008800,
+    "last_signal_bar": 1793012400,
     "ml": {
       "cal": {
         "a": 0.9981633356705939,
