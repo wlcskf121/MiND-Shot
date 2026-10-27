@@ -7501,13 +7501,13 @@
   "rsi2_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 7236,
+      "duration_sec": 8125,
       "entry": 2316.02,
       "exit_style": "bracket",
       "init_sl": 2304.3768021119745,
-      "last_bar": 1793074500,
-      "live_pnl_leveraged": -1.46,
-      "live_pnl_pct": -0.146,
+      "last_bar": 1793075400,
+      "live_pnl_leveraged": -3.25,
+      "live_pnl_pct": -0.325,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -8244,13 +8244,13 @@
   "stoch_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 0,
+      "duration_sec": 925,
       "entry": 2312.74,
       "exit_style": "bracket",
       "init_sl": 2299.4100775356596,
       "last_bar": 1793075400,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": -1.83,
+      "live_pnl_pct": -0.183,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -8992,7 +8992,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793074500,
+    "last_signal_bar": 1793075400,
     "ml": {
       "cal": {
         "a": 0.9393612817122086,
@@ -9682,7 +9682,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793074500,
+    "last_signal_bar": 1793075400,
     "ml": {
       "cal": {
         "a": 0.9551347004061315,
@@ -10379,13 +10379,13 @@
   "zscore_revert_btc_15m": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 5436,
+      "duration_sec": 6325,
       "entry": 79796.5,
       "exit_style": "revert",
       "init_sl": 79260.58457467264,
-      "last_bar": 1793074500,
-      "live_pnl_leveraged": -1.1,
-      "live_pnl_pct": -0.11,
+      "last_bar": 1793075400,
+      "live_pnl_leveraged": -2.13,
+      "live_pnl_pct": -0.213,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -10427,7 +10427,7 @@
       "side": "long",
       "sl": 79260.58457467264,
       "strategy_id": "zscore_revert_btc_15m",
-      "target": 79991.33,
+      "target": 79962.34999999999,
       "tf": "15m",
       "tp": null
     },
