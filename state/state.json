@@ -7502,7 +7502,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793330100,
+    "last_signal_bar": 1793331000,
     "ml": {
       "cal": {
         "a": 0.8684409466747524,
@@ -8192,7 +8192,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793330100,
+    "last_signal_bar": 1793331000,
     "ml": {
       "cal": {
         "a": 1.006106877454877,
@@ -8715,13 +8715,13 @@
   "vwap_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 12636,
+      "duration_sec": 13525,
       "entry": 2252.49,
       "exit_style": "bracket",
       "init_sl": 2189.540617485839,
       "last_bar": 1793318400,
-      "live_pnl_leveraged": -13.69,
-      "live_pnl_pct": -1.369,
+      "live_pnl_leveraged": -8.84,
+      "live_pnl_pct": -0.884,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -8941,7 +8941,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793330100,
+    "last_signal_bar": 1793331000,
     "ml": {
       "cal": {
         "a": 0.9229216406204872,
@@ -9631,7 +9631,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793330100,
+    "last_signal_bar": 1793331000,
     "ml": {
       "cal": {
         "a": 0.9522529698606212,
@@ -10148,13 +10148,13 @@
   "zscore_revert_btc": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 12636,
+      "duration_sec": 13525,
       "entry": 77966.8,
       "exit_style": "revert",
       "init_sl": 74784.05763916997,
       "last_bar": 1793318400,
-      "live_pnl_leveraged": -3.74,
-      "live_pnl_pct": -0.374,
+      "live_pnl_leveraged": 1.57,
+      "live_pnl_pct": 0.157,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -10380,7 +10380,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793330100,
+    "last_signal_bar": 1793331000,
     "ml": {
       "cal": {
         "a": 0.9355505415969189,
