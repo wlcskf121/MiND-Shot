@@ -7505,7 +7505,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793655000,
+    "last_signal_bar": 1793655900,
     "ml": {
       "cal": {
         "a": 0.8807917364738637,
@@ -7811,7 +7811,7 @@
   },
   "rsi2_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793649600,
+    "last_signal_bar": 1793653200,
     "ml": {
       "cal": {
         "a": 0.9404453256469619,
@@ -8195,7 +8195,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793655000,
+    "last_signal_bar": 1793655900,
     "ml": {
       "cal": {
         "a": 0.9940422316180789,
@@ -8507,7 +8507,7 @@
   },
   "stoch_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793649600,
+    "last_signal_bar": 1793653200,
     "ml": {
       "cal": {
         "a": 0.9500475460957998,
@@ -8897,7 +8897,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793655000,
+    "last_signal_bar": 1793655900,
     "ml": {
       "cal": {
         "a": 0.9208946747597742,
@@ -9209,7 +9209,7 @@
   },
   "vwap_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793649600,
+    "last_signal_bar": 1793653200,
     "ml": {
       "cal": {
         "a": 0.9804748759065091,
@@ -9587,7 +9587,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793655000,
+    "last_signal_bar": 1793655900,
     "ml": {
       "cal": {
         "a": 0.9504273289572641,
@@ -9899,7 +9899,7 @@
   },
   "vwap_revert_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793649600,
+    "last_signal_bar": 1793653200,
     "ml": {
       "cal": {
         "a": 0.976482622566965,
@@ -10283,7 +10283,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793655000,
+    "last_signal_bar": 1793655900,
     "ml": {
       "cal": {
         "a": 0.9363978426753826,
@@ -10595,7 +10595,7 @@
   },
   "zscore_revert_btc_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793649600,
+    "last_signal_bar": 1793653200,
     "ml": {
       "cal": {
         "a": 1.0010007829350278,
