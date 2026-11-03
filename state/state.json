@@ -7324,8 +7324,61 @@
     }
   },
   "rsi2_bracket_eth": {
-    "active_trade": null,
-    "last_signal_bar": 1793635200,
+    "active_trade": {
+      "asset": "ETH",
+      "duration_sec": 0,
+      "entry": 2252.61,
+      "exit_style": "bracket",
+      "init_sl": 2208.6872033004965,
+      "last_bar": 1793664000,
+      "live_pnl_leveraged": 0.0,
+      "live_pnl_pct": 0.0,
+      "ml_snap": {
+        "_pred": {
+          "experts": {
+            "base": 0.612073,
+            "buckets": 0.568818,
+            "ftrl": 0.606922,
+            "pool": 0.639833
+          },
+          "p": 0.604119
+        },
+        "p_tr": null,
+        "rsi_b": 1,
+        "ses_b": 2,
+        "sid": "rsi2_bracket_eth",
+        "side": "long",
+        "strat_b": 1,
+        "t": 1793649600,
+        "v": 2,
+        "vol_b": 1,
+        "x": {
+          "adx": -0.10897206603980947,
+          "atrp": -0.3500429622139807,
+          "dc": 1.0,
+          "ds": 0.0,
+          "hc": 0.5000000000000001,
+          "hs": -0.8660254037844386,
+          "rsi": -0.14923266176902444,
+          "side": 1.0,
+          "side_rsi": -0.14923266176902444,
+          "side_t20": -0.65261269342902,
+          "side_t5": -0.8988382939031636,
+          "stretch": 0.058965860264159176,
+          "t20d": -0.65261269342902,
+          "t5d": -0.8988382939031636,
+          "volr": -0.13704786569806293
+        }
+      },
+      "opened_bar": 1793664000,
+      "side": "long",
+      "sl": 2208.6872033004965,
+      "strategy_id": "rsi2_bracket_eth",
+      "target": null,
+      "tf": "4h",
+      "tp": 2274.571398349752
+    },
+    "last_signal_bar": 1793649600,
     "ml": {
       "cal": {
         "a": 0.9768957920525658,
@@ -7505,7 +7558,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793662200,
+    "last_signal_bar": 1793663100,
     "ml": {
       "cal": {
         "a": 0.8807917364738637,
@@ -7811,7 +7864,7 @@
   },
   "rsi2_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793656800,
+    "last_signal_bar": 1793660400,
     "ml": {
       "cal": {
         "a": 0.9404453256469619,
@@ -8015,7 +8068,7 @@
   },
   "stoch_bracket_eth": {
     "active_trade": null,
-    "last_signal_bar": 1793635200,
+    "last_signal_bar": 1793649600,
     "ml": {
       "cal": {
         "a": 1.0067925198124696,
@@ -8195,7 +8248,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793662200,
+    "last_signal_bar": 1793663100,
     "ml": {
       "cal": {
         "a": 0.9940422316180789,
@@ -8507,7 +8560,7 @@
   },
   "stoch_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793656800,
+    "last_signal_bar": 1793660400,
     "ml": {
       "cal": {
         "a": 0.9500475460957998,
@@ -8717,7 +8770,7 @@
   },
   "vwap_bracket_eth": {
     "active_trade": null,
-    "last_signal_bar": 1793635200,
+    "last_signal_bar": 1793649600,
     "ml": {
       "cal": {
         "a": 1.0211594992988746,
@@ -8897,7 +8950,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793662200,
+    "last_signal_bar": 1793663100,
     "ml": {
       "cal": {
         "a": 0.9208946747597742,
@@ -9209,7 +9262,7 @@
   },
   "vwap_bracket_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793656800,
+    "last_signal_bar": 1793660400,
     "ml": {
       "cal": {
         "a": 0.9804748759065091,
@@ -9419,7 +9472,7 @@
   },
   "vwap_revert_eth": {
     "active_trade": null,
-    "last_signal_bar": 1793635200,
+    "last_signal_bar": 1793649600,
     "ml": {
       "cal": {
         "a": 1.0147555862014128,
@@ -9587,7 +9640,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793662200,
+    "last_signal_bar": 1793663100,
     "ml": {
       "cal": {
         "a": 0.9504273289572641,
@@ -9899,7 +9952,7 @@
   },
   "vwap_revert_eth_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793656800,
+    "last_signal_bar": 1793660400,
     "ml": {
       "cal": {
         "a": 0.976482622566965,
@@ -10102,8 +10155,61 @@
     }
   },
   "zscore_revert_btc": {
-    "active_trade": null,
-    "last_signal_bar": 1793635200,
+    "active_trade": {
+      "asset": "BTC",
+      "duration_sec": 0,
+      "entry": 76795.6,
+      "exit_style": "revert",
+      "init_sl": 74558.67523283887,
+      "last_bar": 1793664000,
+      "live_pnl_leveraged": 0.0,
+      "live_pnl_pct": 0.0,
+      "ml_snap": {
+        "_pred": {
+          "experts": {
+            "base": 0.767861,
+            "buckets": 0.85501,
+            "ftrl": 0.840586,
+            "pool": 0.794194
+          },
+          "p": 0.810632
+        },
+        "p_tr": null,
+        "rsi_b": 1,
+        "ses_b": 2,
+        "sid": "zscore_revert_btc",
+        "side": "long",
+        "strat_b": 4,
+        "t": 1793649600,
+        "v": 2,
+        "vol_b": 1,
+        "x": {
+          "adx": -0.041773689604409636,
+          "atrp": -0.5145278114904424,
+          "dc": 1.0,
+          "ds": 0.0,
+          "hc": 0.5000000000000001,
+          "hs": -0.8660254037844386,
+          "rsi": -0.3043506072032176,
+          "side": 1.0,
+          "side_rsi": -0.3043506072032176,
+          "side_t20": -0.508488439507991,
+          "side_t5": -1.1104182885478875,
+          "stretch": 0.3091698637249656,
+          "t20d": -0.508488439507991,
+          "t5d": -1.1104182885478875,
+          "volr": 0.025774269684827766
+        }
+      },
+      "opened_bar": 1793664000,
+      "side": "long",
+      "sl": 74558.67523283887,
+      "strategy_id": "zscore_revert_btc",
+      "target": 77608.48000000001,
+      "tf": "4h",
+      "tp": null
+    },
+    "last_signal_bar": 1793649600,
     "ml": {
       "cal": {
         "a": 1.0218594477784897,
@@ -10283,7 +10389,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1793662200,
+    "last_signal_bar": 1793663100,
     "ml": {
       "cal": {
         "a": 0.9363978426753826,
@@ -10595,7 +10701,7 @@
   },
   "zscore_revert_btc_1h": {
     "active_trade": null,
-    "last_signal_bar": 1793656800,
+    "last_signal_bar": 1793660400,
     "ml": {
       "cal": {
         "a": 1.0010007829350278,
