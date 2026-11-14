@@ -7524,7 +7524,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1794613500,
+    "last_signal_bar": 1794614400,
     "ml": {
       "cal": {
         "a": 0.886115345985134,
@@ -8292,7 +8292,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1794613500,
+    "last_signal_bar": 1794614400,
     "ml": {
       "cal": {
         "a": 1.0206031790316195,
@@ -9000,7 +9000,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1794613500,
+    "last_signal_bar": 1794614400,
     "ml": {
       "cal": {
         "a": 0.9243882668499959,
@@ -9703,13 +9703,13 @@
   "vwap_revert_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 8145,
+      "duration_sec": 9028,
       "entry": 1920.78,
       "exit_style": "revert",
       "init_sl": 1901.6209605069685,
-      "last_bar": 1794613500,
-      "live_pnl_leveraged": 6.88,
-      "live_pnl_pct": 0.688,
+      "last_bar": 1794614400,
+      "live_pnl_leveraged": 6.3,
+      "live_pnl_pct": 0.63,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -9751,7 +9751,7 @@
       "side": "long",
       "sl": 1901.6209605069685,
       "strategy_id": "vwap_revert_eth_15m",
-      "target": 1932.7122031750787,
+      "target": 1932.235128496053,
       "tf": "15m",
       "tp": null
     },
@@ -10457,7 +10457,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1794613500,
+    "last_signal_bar": 1794614400,
     "ml": {
       "cal": {
         "a": 0.9790227954722057,
@@ -10668,13 +10668,13 @@
   "zscore_revert_btc_1d": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 28845,
+      "duration_sec": 29728,
       "entry": 68872.5,
       "exit_style": "revert",
       "init_sl": 61274.5493803202,
       "last_bar": 1794585600,
-      "live_pnl_leveraged": -7.57,
-      "live_pnl_pct": -0.757,
+      "live_pnl_leveraged": -7.67,
+      "live_pnl_pct": -0.767,
       "ml_snap": {
         "_pred": {
           "experts": {
