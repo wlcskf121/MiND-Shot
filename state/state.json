@@ -10616,7 +10616,7 @@
   "zscore_revert_btc_1d": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 85526,
+      "duration_sec": 85539,
       "entry": 68872.5,
       "exit_style": "revert",
       "init_sl": 61274.5493803202,
