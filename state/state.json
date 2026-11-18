@@ -7530,13 +7530,13 @@
   "rsi2_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 0,
+      "duration_sec": 931,
       "entry": 1804.76,
       "exit_style": "bracket",
       "init_sl": 1795.630307142669,
       "last_bar": 1794997800,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": -1.72,
+      "live_pnl_pct": -0.172,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -8350,7 +8350,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1794996900,
+    "last_signal_bar": 1794997800,
     "ml": {
       "cal": {
         "a": 1.0647156319334992,
@@ -9059,13 +9059,13 @@
   "vwap_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 0,
+      "duration_sec": 931,
       "entry": 1804.76,
       "exit_style": "bracket",
       "init_sl": 1795.630307142669,
       "last_bar": 1794997800,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": -1.72,
+      "live_pnl_pct": -0.172,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -9813,7 +9813,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1794996900,
+    "last_signal_bar": 1794997800,
     "ml": {
       "cal": {
         "a": 0.9627500805930957,
@@ -10516,11 +10516,11 @@
   "zscore_revert_btc_15m": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 941,
+      "duration_sec": 1831,
       "entry": 64552.1,
       "exit_style": "revert",
       "init_sl": 64026.59776525006,
-      "last_bar": 1794996900,
+      "last_bar": 1794997800,
       "live_pnl_leveraged": -4.8,
       "live_pnl_pct": -0.48,
       "ml_snap": {
@@ -10564,7 +10564,7 @@
       "side": "long",
       "sl": 64026.59776525006,
       "strategy_id": "zscore_revert_btc_15m",
-      "target": 64619.875,
+      "target": 64602.00499999999,
       "tf": "15m",
       "tp": null
     },
@@ -10779,7 +10779,7 @@
   "zscore_revert_btc_1d": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 412241,
+      "duration_sec": 413131,
       "entry": 68872.5,
       "exit_style": "revert",
       "init_sl": 61274.5493803202,
@@ -10827,7 +10827,7 @@
       "side": "long",
       "sl": 61274.5493803202,
       "strategy_id": "zscore_revert_btc_1d",
-      "target": 72921.75999999998,
+      "target": 72921.76499999998,
       "tf": "1d",
       "tp": null
     },
