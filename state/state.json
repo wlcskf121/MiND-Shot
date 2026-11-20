@@ -7531,7 +7531,7 @@
   },
   "rsi2_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1795168800,
+    "last_signal_bar": 1795169700,
     "ml": {
       "cal": {
         "a": 0.8517376611430931,
@@ -8300,13 +8300,13 @@
   "stoch_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 9885,
+      "duration_sec": 9941,
       "entry": 1745.0,
       "exit_style": "bracket",
       "init_sl": 1765.1459312949348,
-      "last_bar": 1795168800,
-      "live_pnl_leveraged": -3.52,
-      "live_pnl_pct": -0.352,
+      "last_bar": 1795169700,
+      "live_pnl_leveraged": -3.77,
+      "live_pnl_pct": -0.377,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -9060,7 +9060,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1795168800,
+    "last_signal_bar": 1795169700,
     "ml": {
       "cal": {
         "a": 0.9178862625123893,
@@ -9762,7 +9762,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1795168800,
+    "last_signal_bar": 1795169700,
     "ml": {
       "cal": {
         "a": 0.9493807845035751,
@@ -10464,7 +10464,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1795168800,
+    "last_signal_bar": 1795169700,
     "ml": {
       "cal": {
         "a": 0.9447972089128128,
@@ -10843,13 +10843,13 @@
   "zscore_revert_btc_1h": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 52185,
+      "duration_sec": 52241,
       "entry": 62340.9,
       "exit_style": "revert",
       "init_sl": 60538.97093045285,
       "last_bar": 1795165200,
-      "live_pnl_leveraged": -6.62,
-      "live_pnl_pct": -0.662,
+      "live_pnl_leveraged": -6.37,
+      "live_pnl_pct": -0.637,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -10891,7 +10891,7 @@
       "side": "long",
       "sl": 60538.97093045285,
       "strategy_id": "zscore_revert_btc_1h",
-      "target": 62101.229999999996,
+      "target": 62102.00499999999,
       "tf": "1h",
       "tp": null
     },
