@@ -7532,13 +7532,13 @@
   "rsi2_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 0,
+      "duration_sec": 930,
       "entry": 1753.84,
       "exit_style": "bracket",
       "init_sl": 1769.32242349657,
       "last_bar": 1795183200,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": 1.08,
+      "live_pnl_pct": 0.108,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -8352,7 +8352,7 @@
   },
   "stoch_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1795182300,
+    "last_signal_bar": 1795183200,
     "ml": {
       "cal": {
         "a": 1.1174930108533931,
@@ -9060,7 +9060,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1795182300,
+    "last_signal_bar": 1795183200,
     "ml": {
       "cal": {
         "a": 0.9242223230368453,
@@ -9762,7 +9762,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1795182300,
+    "last_signal_bar": 1795183200,
     "ml": {
       "cal": {
         "a": 0.9543570767969949,
@@ -10464,7 +10464,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1795182300,
+    "last_signal_bar": 1795183200,
     "ml": {
       "cal": {
         "a": 0.9447972089128128,
@@ -10843,13 +10843,13 @@
   "zscore_revert_btc_1h": {
     "active_trade": {
       "asset": "BTC",
-      "duration_sec": 64850,
+      "duration_sec": 65730,
       "entry": 62340.9,
       "exit_style": "revert",
       "init_sl": 60538.97093045285,
       "last_bar": 1795179600,
-      "live_pnl_leveraged": -7.41,
-      "live_pnl_pct": -0.741,
+      "live_pnl_leveraged": -7.26,
+      "live_pnl_pct": -0.726,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -10891,7 +10891,7 @@
       "side": "long",
       "sl": 60538.97093045285,
       "strategy_id": "zscore_revert_btc_1h",
-      "target": 61887.955,
+      "target": 61888.41000000001,
       "tf": "1h",
       "tp": null
     },
