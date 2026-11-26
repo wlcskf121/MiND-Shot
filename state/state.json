@@ -7352,13 +7352,13 @@
   "rsi2_bracket_eth": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 65726,
+      "duration_sec": 66643,
       "entry": 1697.31,
       "exit_style": "bracket",
       "init_sl": 1758.821211120679,
       "last_bar": 1795708800,
-      "live_pnl_leveraged": 0.78,
-      "live_pnl_pct": 0.078,
+      "live_pnl_leveraged": 0.6,
+      "live_pnl_pct": 0.06,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -7591,13 +7591,13 @@
   "rsi2_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 0,
+      "duration_sec": 943,
       "entry": 1696.29,
       "exit_style": "bracket",
       "init_sl": 1687.9222268785586,
       "last_bar": 1795731300,
-      "live_pnl_leveraged": 0.0,
-      "live_pnl_pct": 0.0,
+      "live_pnl_leveraged": 0.01,
+      "live_pnl_pct": 0.001,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -8412,13 +8412,13 @@
   "stoch_bracket_eth_15m": {
     "active_trade": {
       "asset": "ETH",
-      "duration_sec": 13528,
+      "duration_sec": 14443,
       "entry": 1700.49,
       "exit_style": "bracket",
       "init_sl": 1715.0863400579676,
-      "last_bar": 1795730400,
-      "live_pnl_leveraged": 2.55,
-      "live_pnl_pct": 0.255,
+      "last_bar": 1795731300,
+      "live_pnl_leveraged": 2.46,
+      "live_pnl_pct": 0.246,
       "ml_snap": {
         "_pred": {
           "experts": {
@@ -9172,7 +9172,7 @@
   },
   "vwap_bracket_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1795730400,
+    "last_signal_bar": 1795731300,
     "ml": {
       "cal": {
         "a": 0.920766119324285,
@@ -9874,7 +9874,7 @@
   },
   "vwap_revert_eth_15m": {
     "active_trade": null,
-    "last_signal_bar": 1795730400,
+    "last_signal_bar": 1795731300,
     "ml": {
       "cal": {
         "a": 0.9421305021966362,
@@ -10576,7 +10576,7 @@
   },
   "zscore_revert_btc_15m": {
     "active_trade": null,
-    "last_signal_bar": 1795730400,
+    "last_signal_bar": 1795731300,
     "ml": {
       "cal": {
         "a": 0.9141113816707201,
